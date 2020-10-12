@@ -1,5 +1,5 @@
 +++
-title = "Lab 3: Protecting Workloads from the Instance to the Edge"
+title = "Lab 3: Encrypt the Spoilers"
 date = 2019-11-18T08:23:04+11:00
 weight = 30
 chapter = false

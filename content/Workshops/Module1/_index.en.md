@@ -1,5 +1,5 @@
 +++
-title = "Lab 1: Eliminate Bastion Hosts with Systems Manager"
+title = "Lab 1: Data Discovery and Classification with Macie"
 date = 2019-11-18T08:23:04+11:00
 chapter = false
 weight = 27

@@ -1,5 +1,5 @@
 +++
-title = "Lab 2: Security through Good Governance"
+title = "Lab 2: Threat detection and response in AWS"
 date = 2019-11-18T08:23:04+11:00
 weight = 29
 chapter = false
