@@ -3,8 +3,6 @@ title = "Enable AWS Security Hub"
 menuTitle = "Enable Security Hub"
 date = 2020-07-30T14:27:09-05:00
 weight = 11
-chapter = true
-pre = "<b></b>"
 +++
 
 Your second step is to enable AWS Security Hub.  The bucket policy findings from Amazon Macie will be sent to Security Hub.

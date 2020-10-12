@@ -3,8 +3,6 @@ title = "Finish Macie setup"
 menuTitle = "Finish Macie setup"
 date = 2020-07-30T14:27:45-05:00
 weight = 14
-chapter = true
-pre = "<b></b>"
 +++
 
 ### Configure Amazon Macie to export findings to an S3 Bucket

@@ -3,8 +3,6 @@ title = "Enable Amazon Macie"
 menuTitle = "Enable Macie"
 date = 2020-07-30T14:27:03-05:00
 weight = 10
-chapter = true
-pre = "<b></b>"
 +++
 
 Your first step is to enable Amazon Macie.  Later we will create data classification jobs to investigate the contents of your S3 buckets and Macie will also do analysis on your S3 buckets and report on any configuration changes.

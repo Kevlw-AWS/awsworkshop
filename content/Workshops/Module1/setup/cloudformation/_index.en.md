@@ -3,8 +3,6 @@ menuTitle = "Run the Cloudformation template"
 title = "Run the initial cloudformation template"
 date = 2020-07-30T14:27:19-05:00
 weight = 12
-chapter = true
-pre = "<b></b>"
 +++
 
 To initiate the scenario and create the infrastructure we need to deploy a cloudformation template.
