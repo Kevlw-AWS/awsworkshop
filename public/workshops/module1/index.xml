@@ -6,11 +6,7 @@
     <description>Recent content in Lab 1: Eliminate Bastion Hosts with Systems Manager on AWS Cloud Security Virtual Event</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 18 Nov 2019 08:23:04 +1100</lastBuildDate>
-    
-	<atom:link href="/workshops/module1/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 18 Nov 2019 08:23:04 +1100</lastBuildDate><atom:link href="/workshops/module1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1. Overview and Setup</title>
       <link>/workshops/module1/scenario/</link>

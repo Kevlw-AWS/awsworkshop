@@ -5,10 +5,6 @@
     <link>/ondemandtracks/secops_in_your_organization/</link>
     <description>Recent content in How to put SecOps to work in your organisation on AWS Cloud Security Virtual Event</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    
-	<atom:link href="/ondemandtracks/secops_in_your_organization/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-US</language><atom:link href="/ondemandtracks/secops_in_your_organization/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

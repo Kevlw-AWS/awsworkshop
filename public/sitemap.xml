@@ -46,12 +46,32 @@
   </url>
   
   <url>
+    <loc>/workshops/module5/scenario/</loc>
+    <lastmod>2019-11-18T17:11:28+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workshops/module6/scenario/</loc>
+    <lastmod>2019-11-18T17:11:28+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/workshops/module3/perimeter-verify/</loc>
     <lastmod>2019-11-18T17:11:28+11:00</lastmod>
   </url>
   
   <url>
     <loc>/workshops/module4/rds/</loc>
+    <lastmod>2019-11-18T17:11:28+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workshops/module5/rds/</loc>
+    <lastmod>2019-11-18T17:11:28+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workshops/module6/rds/</loc>
     <lastmod>2019-11-18T17:11:28+11:00</lastmod>
   </url>
   
@@ -67,6 +87,16 @@
   
   <url>
     <loc>/workshops/module4/fargate/</loc>
+    <lastmod>2019-11-18T17:11:28+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workshops/module5/fargate/</loc>
+    <lastmod>2019-11-18T17:11:28+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workshops/module6/fargate/</loc>
     <lastmod>2019-11-18T17:11:28+11:00</lastmod>
   </url>
   
@@ -150,6 +180,16 @@
   
   <url>
     <loc>/workshops/module4/</loc>
+    <lastmod>2019-11-18T08:23:04+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workshops/module5/</loc>
+    <lastmod>2019-11-18T08:23:04+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/workshops/module6/</loc>
     <lastmod>2019-11-18T08:23:04+11:00</lastmod>
   </url>
   

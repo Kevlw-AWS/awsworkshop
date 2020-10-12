@@ -5,10 +5,6 @@
     <link>/ondemandtracks/cloud-enabled_security_origin/</link>
     <description>Recent content in Cloud-enabled security evolution with Origin Energy on AWS Cloud Security Virtual Event</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    
-	<atom:link href="/ondemandtracks/cloud-enabled_security_origin/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-US</language><atom:link href="/ondemandtracks/cloud-enabled_security_origin/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

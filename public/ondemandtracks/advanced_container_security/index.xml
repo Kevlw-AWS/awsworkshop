@@ -5,10 +5,6 @@
     <link>/ondemandtracks/advanced_container_security/</link>
     <description>Recent content in Advanced container security on AWS Cloud Security Virtual Event</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    
-	<atom:link href="/ondemandtracks/advanced_container_security/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-US</language><atom:link href="/ondemandtracks/advanced_container_security/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

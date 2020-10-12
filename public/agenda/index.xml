@@ -5,10 +5,6 @@
     <link>/agenda/</link>
     <description>Recent content in Overview on AWS Cloud Security Virtual Event</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    
-	<atom:link href="/agenda/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-US</language><atom:link href="/agenda/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

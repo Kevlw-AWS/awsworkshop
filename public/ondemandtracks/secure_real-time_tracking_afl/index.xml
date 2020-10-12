@@ -5,10 +5,6 @@
     <link>/ondemandtracks/secure_real-time_tracking_afl/</link>
     <description>Recent content in How AFL secures real-time player tracking with encryption on AWS Cloud Security Virtual Event</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    
-	<atom:link href="/ondemandtracks/secure_real-time_tracking_afl/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-US</language><atom:link href="/ondemandtracks/secure_real-time_tracking_afl/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

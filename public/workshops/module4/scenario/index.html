@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="generator" content="Hugo 0.76.3" />
     <meta name="description" content="AWS Cloud Security Virtual Event">
-<meta name="author" content="Sumit Patel">
+<meta name="author" content="ANZ Security TFC">
 
     <link rel="shortcut icon" href="https://a0.awsstatic.com/libra-css/images/site/fav/favicon.ico" type="image/ico" />
 <link rel="icon" href="https://a0.awsstatic.com/libra-css/images/site/fav/favicon.ico" type="image/ico" />
@@ -745,6 +745,202 @@
 
             
           
+            
+            
+
+
+ 
+  
+    
+    
+    
+    <li data-nav-id="/workshops/module5/" title="Lab 4: AWS Secrets Manager with Amazon RDS and AWS Fargate" class="dd-item
+    
+        
+        ">
+      <a href="/workshops/module5/">
+          Lab 4: AWS Secrets Manager with Amazon RDS and AWS Fargate
+          
+            
+              <i class="fas fa-caret-right"></i>
+            
+          
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/workshops/module5/scenario/" title="1. Architecture" class="dd-item ">
+        <a href="/workshops/module5/scenario/">
+        1. Architecture
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/workshops/module5/rds/" title="2. RDS with Secrets Manager" class="dd-item ">
+        <a href="/workshops/module5/rds/">
+        2. RDS with Secrets Manager
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/workshops/module5/fargate/" title="3. Fargate with Secrets Manager" class="dd-item ">
+        <a href="/workshops/module5/fargate/">
+        3. Fargate with Secrets Manager
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    
+    
+    <li data-nav-id="/workshops/module6/" title="Lab 4: AWS Secrets Manager with Amazon RDS and AWS Fargate" class="dd-item
+    
+        
+        ">
+      <a href="/workshops/module6/">
+          Lab 4: AWS Secrets Manager with Amazon RDS and AWS Fargate
+          
+            
+              <i class="fas fa-caret-right"></i>
+            
+          
+          
+            <i class="fas read-icon"></i>
+          
+      </a>
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/workshops/module6/scenario/" title="1. Architecture" class="dd-item ">
+        <a href="/workshops/module6/scenario/">
+        1. Architecture
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/workshops/module6/rds/" title="2. RDS with Secrets Manager" class="dd-item ">
+        <a href="/workshops/module6/rds/">
+        2. RDS with Secrets Manager
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/workshops/module6/fargate/" title="3. Fargate with Secrets Manager" class="dd-item ">
+        <a href="/workshops/module6/fargate/">
+        3. Fargate with Secrets Manager
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
         
         </ul>
       
@@ -1322,7 +1518,7 @@ This environment consists of a VPC with two subnets. The subnets contains an Ama
 <li>Enter a <strong>User Name</strong>, check the checkbox for <strong>AWS Management Console</strong> access, enter a <strong>Custom Password,</strong> and click <strong>Next:Permissions</strong>.</li>
 <li>Click <strong>Attach existing policies directly</strong>, click the checkbox next to the <strong>AdministratorAccess</strong>, and click <strong>Next:review</strong>.</li>
 <li>Click <strong>Create User</strong></li>
-<li>Click <strong>Dashboard</strong> on the left navigation and use the <strong>IAM users sign-in link</strong> to login as the admin user you just created.&rdquo;</li>
+<li>Click <strong>Dashboard</strong> on the left navigation and use the <strong>IAM users sign-in link</strong> to login as the admin user you just created.&quot;</li>
 </ol>
 <p>To setup the workshop environment, launch the CloudFormation stack below in the <strong>ap-southeast-2</strong> AWS region using the &ldquo;Deploy to AWS&rdquo; links below. This will automatically take you to the console to run the template. In order to complete these workshops, you&rsquo;ll need a valid, usable AWS Account. Use a personal account or create a new <a href="https://aws.amazon.com/getting-started/">AWS account</a> to ensure you have the necessary access and that you do not accidentally modify corporate resources. Do not use an AWS account from the company you work for. <strong>We strongly recommend that you use a non-production AWS account for this workshop such as a training, sandbox or personal account. If multiple participants are sharing a single account you should use unique names for the stack set and resources created in the console.</strong></p>
 <table>
@@ -1871,6 +2067,134 @@ You should see the stacks as displayed below deployed in your account. Look for 
                     
                         
                         
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
                     
                 
                 

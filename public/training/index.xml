@@ -6,10 +6,6 @@
     <description>Recent content in Learning Resources on AWS Cloud Security Virtual Event</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 18 Nov 2019 08:29:21 +1100</lastBuildDate>
-    
-	<atom:link href="/training/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 18 Nov 2019 08:29:21 +1100</lastBuildDate><atom:link href="/training/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

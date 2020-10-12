@@ -5,10 +5,6 @@
     <link>/ondemandtracks/sec-best-practices-war-way/</link>
     <description>Recent content in Security best practices: The Well-Architected way on AWS Cloud Security Virtual Event</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    
-	<atom:link href="/ondemandtracks/sec-best-practices-war-way/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-US</language><atom:link href="/ondemandtracks/sec-best-practices-war-way/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
