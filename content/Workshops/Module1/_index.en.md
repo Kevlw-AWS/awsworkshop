@@ -5,9 +5,7 @@ chapter = false
 weight = 27
 +++
 
-### Eliminate bastion hosts with AWS Systems Manager Session Manager
-
-AWS Systems Manager Session Manager improves your security posture for instance access with a browser-based and CLI interactive shell experience that requires no open inbound ports or access/jump servers, and enables customer key encryption using AWS KMS. With IAM access control, sessions audited using AWS CloudTrail, and session output logged to Amazon S3 or Amazon CloudWatch Logs, Session Manager makes it easy to control and secure access to instances in operational scenarios while complying with corporate policies and security best practices. Dive deep into AWS Systems Manager Session Manager to see how it works for Linux or Windows instances, in the cloud, or on premises.
+This workshop is designed to help you get familiar with Amazon Macie and learn how to scan and classify data in your S3 buckets.  You will be working with Amazon Macie (data classification) and AWS Security Hub (centralized security view) to view and understand how data in your environment in stored and to understand any changes in S3 bucket policies that may negatively affect your security posture.  You will learn to create a custom data identifier and how to create and scope data discovery and classification jobs in Amazon Macie.  Finally you will use Amazon Macie to filter and investigate the results from the scans that you created.
 
 ### Lab Overview
 
