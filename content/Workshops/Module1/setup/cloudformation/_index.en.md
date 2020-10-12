@@ -1,6 +1,6 @@
 +++
 menuTitle = "Run the Cloudformation template"
-title = "Run the initial cloudformation template"
+title = "Run the cloudformation template"
 date = 2020-07-30T14:27:19-05:00
 weight = 12
 +++
@@ -8,15 +8,12 @@ weight = 12
 To initiate the scenario and create the infrastructure we need to deploy a cloudformation template.
 
 {{% notice note %}}
-Before you deploy the CloudFormation template feel free to view it [here](https://macie-security-workshop-us-east-1.s3.amazonaws.com/MacieWorkshopSetup.yml)
+Before you deploy the CloudFormation template feel free to view it [here](https://apj-security-workshop.s3-ap-southeast-2.amazonaws.com/macie/MacieWorkshopSetup.yml)
 {{% /notice %}}
 
 Region|Deploy
 -----|-----
-Us-East-1 (N. Virginia)| [![Deploy CloudFormation Template in us-east-1](/images/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=MacieWorkshop-Env-Setup&templateURL=https://macie-security-workshop-us-east-1.s3.amazonaws.com/MacieWorkshopSetup.yml)
-Us-West-2 (Oregon)| [![Deploy CloudFormation Template in us-west-2](/images/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=MacieWorkshop-Env-Setup&templateURL=https://macie-security-workshop-us-west-2.s3.amazonaws.com/MacieWorkshopSetup.yml)
-Eu-West-1 (Ireland))| [![Deploy CloudFormation Template in eu-west-1](/images/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=eu-west-1#/stacks/new?stackName=MacieWorkshop-Env-Setup&templateURL=https://macie-security-workshop-eu-west-1.s3.amazonaws.com/MacieWorkshopSetup.yml)
-Ap-Southeast-1 (Singapore)| [![Deploy CloudFormation Template in ap-southeast-1](/images/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=ap-southeast-1#/stacks/new?stackName=MacieWorkshop-Env-Setup&templateURL=https://macie-security-workshop-ap-southeast-1.s3.amazonaws.com/MacieWorkshopSetup.yml)  
+ap-southeast-2 (Sydney)| [![Deploy CloudFormation Template in ap-southeast-2](/images/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=ap-southeast-2#/stacks/new?stackName=MacieWorkshop-Env-Setup&templateURL=https://apj-security-workshop.s3-ap-southeast-2.amazonaws.com/macie/MacieWorkshopSetup.yml)  
 
 
 1. Click on the **Deploy to AWS** button.  This will automatically take you to the console to run the template, click **Next** to get the **Specify Details** page.
