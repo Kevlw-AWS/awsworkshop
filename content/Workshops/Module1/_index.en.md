@@ -15,14 +15,14 @@ This workshop is designed to help you get familiar with Amazon Macie and learn h
 </video>
 {{< /rawhtml >}}
 
->  **Speakers: Sara Gray (AWS), Fahad Tariq (CMD Solutions)** 
+>  **Speakers: TBD** 
 
->  *In this video, you’ll also hear from our partner [CMD Solutions](https://bit.ly/CMDSolutions)  highlighting a real-world example of the deployment of the AWS services you’ll use in this demo. For more information, please visit [here](https://bit.ly/CMDSolutions)*
+>  *In this video, you’ll also hear from our partner [TBD](https://aws.amazon.com)  highlighting a real-world example of the deployment of the AWS services you’ll use in this lab. For more information, please visit [here](https://aws.amazon.com)*
 
 ### Lab Steps
 {{% children depth=2 %}}
 
-Click [here](../module1/scenario) to get started!
+Click [here](../module1/setup) to get started!
 
 
 
