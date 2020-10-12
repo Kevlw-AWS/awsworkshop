@@ -2,17 +2,12 @@
 title = "Introduction"
 date = 2020-07-30T11:04:54-05:00
 weight = 5
-chapter = true
 pre = "<b>0. </b>"
 +++
 
 {{% notice note %}}
-This workshop is available in the follow regions:   
-**us-east-1 (N. Virginia)**  
-**us-west-2 (Oregon)**  
-**ap-southeast-1 (Singapore)**  
-**eu-west-1 (Ireland)**  
-Please select the appropriate Cloudformation template during Module 1.
+This workshop is available in the follow region:   
+**ap-southeast-2 (Sydney, Australia)**  
 {{% /notice %}}
 
 

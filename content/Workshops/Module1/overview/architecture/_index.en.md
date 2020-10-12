@@ -2,7 +2,6 @@
 title = "Architecture"
 date = 2020-07-30T11:43:15-05:00
 weight = 5
-chapter = true
 pre = "<b></b>"
 +++
 

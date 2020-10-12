@@ -2,7 +2,6 @@
 title = "Scenario"
 date = 2020-07-30T11:43:23-05:00
 weight = 6
-chapter = true
 pre = "<b></b>"
 +++
 
