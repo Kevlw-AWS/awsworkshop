@@ -239,42 +239,42 @@
 },
 {
 	"uri": "/workshops/module1/",
-	"title": "Lab 1: Eliminate Bastion Hosts with Systems Manager",
+	"title": "Lab 1: Data Discovery and Classification with Macie",
 	"tags": [],
 	"description": "",
 	"content": "Eliminate bastion hosts with AWS Systems Manager Session Manager AWS Systems Manager Session Manager improves your security posture for instance access with a browser-based and CLI interactive shell experience that requires no open inbound ports or access/jump servers, and enables customer key encryption using AWS KMS. With IAM access control, sessions audited using AWS CloudTrail, and session output logged to Amazon S3 or Amazon CloudWatch Logs, Session Manager makes it easy to control and secure access to instances in operational scenarios while complying with corporate policies and security best practices. Dive deep into AWS Systems Manager Session Manager to see how it works for Linux or Windows instances, in the cloud, or on premises.\nLab Overview Your browser doesn't support video.   Speakers: Sara Gray (AWS), Fahad Tariq (CMD Solutions)\n  In this video, you’ll also hear from our partner CMD Solutions highlighting a real-world example of the deployment of the AWS services you’ll use in this demo. For more information, please visit here\n Lab Steps  1. Overview and Setup     2. Evaluate Session Manager Configuration     3. Configure Systems Manager Session Manager     4. Use Port Forwarding For Web Redirection     5. Enable SSH Through Session Manager     6. Enable RDP Through Session Manager     Click here to get started!\n"
 },
 {
 	"uri": "/workshops/module2/",
-	"title": "Lab 2: Security through Good Governance",
+	"title": "Lab 2: Threat detection and response in AWS",
 	"tags": [],
 	"description": "",
 	"content": "In this session, you will leverage Systems Manager and AWS Config to enforce governance across your AWS resources. You will collect inventory from your instances, automate patch management, ensuring consistency across your instances and automating compliance enforcement.\nLab Overview Your browser doesn't support video.   Speakers: Michael Stringer (AWS), Mark Promnitz (Itoc)\n  In this video, you’ll also hear from our partner Itoc highlighting a real-world example of the deployment of the AWS services you’ll use in this demo. For more information, please visit here\n Lab Steps  1. AWS Systems Manager Lab Setup     2. AWS Systems Manager: Operations as Code     3. AWS Systems Manager: Inventory     4. AWS Systems Manager: State Manager     5. AWS Systems Manager: Patch Manager     6. AWS Config Lab Setup     7. AWS Config: Compliance as Code     Click here to get started!\n"
 },
 {
 	"uri": "/workshops/module3/",
-	"title": "Lab 3: Protecting Workloads from the Instance to the Edge",
+	"title": "Lab 3: Encrypt the Spoilers",
 	"tags": [],
 	"description": "",
 	"content": "In this session, you will build an environment consisting of two Amazon Linux web servers behind an application load balancer. The web servers will be running a PHP web site that contains several vulnerabilities. You will then use AWS Web Application Firewall (WAF), Amazon Inspector and AWS Systems Manager to identify the vulnerabilities and remediate them.\nLab Overview Your browser doesn't support video.   Speakers: Sumit Patel (AWS), Simon Morse (Versent)\n  In this video, you’ll also hear from our partner Versent highlighting a real-world example of the deployment of the AWS services you’ll use in this demo. For more information, please visit here\n Lab Steps  1. Scenario     2. Perimeter Layer - Assess     3. Perimeter Layer - Remediate     4. Perimeter Layer - Verify     5. Host Layer - Assess     6. Host Layer - Remediate     7. Host Layer - Verify     Click here to get started!\n"
 },
 {
 	"uri": "/workshops/module4/",
-	"title": "Lab 4: AWS Secrets Manager with Amazon RDS and AWS Fargate",
+	"title": "Lab 4: Architecting for PCI DSS Compliance",
 	"tags": [],
 	"description": "",
 	"content": "This Secrets Manager lab guides you through the use of AWS Secrets Manager with Amazon RDS and AWS Fargate . In the first phase you will access the RDS database with Secrets Manager. You will then use Secrets Manager to rotate the data base password. You will then use Secrets Manager to access the database again to show that you can continue to access the data base after the rotation.\nIn the second phase of the lab, you will extend your use of Secrets Manager into an AWS Fargate container. You will create an Amazon ECS task definition to pass secrets to the Fargate container and then launch the Fargate container. You will then SSH into the container to show that the secret was passed to the container and that you can access the RDS data base.\nLab Overview Your browser doesn't support video.   Speakers: Chamandeep Singh (AWS), Julian Hickie (Cloudten)\n  In this video, you’ll also hear from our partner Cloudten highlighting a real-world example of the deployment of the AWS services you’ll use in this demo. For more information, please visit here\n Lab Steps  1. Architecture     2. RDS with Secrets Manager     3. Fargate with Secrets Manager     Click here to get started!\n"
 },
 {
 	"uri": "/workshops/module5/",
-	"title": "Lab 4: AWS Secrets Manager with Amazon RDS and AWS Fargate",
+	"title": "Lab 5: Keep your secrets a secret",
 	"tags": [],
 	"description": "",
 	"content": "This Secrets Manager lab guides you through the use of AWS Secrets Manager with Amazon RDS and AWS Fargate . In the first phase you will access the RDS database with Secrets Manager. You will then use Secrets Manager to rotate the data base password. You will then use Secrets Manager to access the database again to show that you can continue to access the data base after the rotation.\nIn the second phase of the lab, you will extend your use of Secrets Manager into an AWS Fargate container. You will create an Amazon ECS task definition to pass secrets to the Fargate container and then launch the Fargate container. You will then SSH into the container to show that the secret was passed to the container and that you can access the RDS data base.\nLab Overview Your browser doesn't support video.   Speakers: Chamandeep Singh (AWS), Julian Hickie (Cloudten)\n  In this video, you’ll also hear from our partner Cloudten highlighting a real-world example of the deployment of the AWS services you’ll use in this demo. For more information, please visit here\n Lab Steps  1. Architecture     2. RDS with Secrets Manager     3. Fargate with Secrets Manager     Click here to get started!\n"
 },
 {
 	"uri": "/workshops/module6/",
-	"title": "Lab 4: AWS Secrets Manager with Amazon RDS and AWS Fargate",
+	"title": "Lab 6: Sleeper Agent",
 	"tags": [],
 	"description": "",
 	"content": "This Secrets Manager lab guides you through the use of AWS Secrets Manager with Amazon RDS and AWS Fargate . In the first phase you will access the RDS database with Secrets Manager. You will then use Secrets Manager to rotate the data base password. You will then use Secrets Manager to access the database again to show that you can continue to access the data base after the rotation.\nIn the second phase of the lab, you will extend your use of Secrets Manager into an AWS Fargate container. You will create an Amazon ECS task definition to pass secrets to the Fargate container and then launch the Fargate container. You will then SSH into the container to show that the secret was passed to the container and that you can access the RDS data base.\nLab Overview Your browser doesn't support video.   Speakers: Chamandeep Singh (AWS), Julian Hickie (Cloudten)\n  In this video, you’ll also hear from our partner Cloudten highlighting a real-world example of the deployment of the AWS services you’ll use in this demo. For more information, please visit here\n Lab Steps  1. Architecture     2. RDS with Secrets Manager     3. Fargate with Secrets Manager     Click here to get started!\n"
