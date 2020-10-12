@@ -3,7 +3,6 @@ menuTitle = "Configure"
 title = "Configure Data Discovery and Classification"
 date = 2020-07-30T11:31:12-05:00
 weight = 7
-chapter = true
 pre = "<b>2. </b>"
 +++
 
