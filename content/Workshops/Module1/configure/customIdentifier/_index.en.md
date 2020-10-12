@@ -2,7 +2,6 @@
 title = "Create a Custom Identifier"
 date = 2020-07-30T15:08:36-05:00
 weight = 11
-chapter = true
 pre = "<b></b>"
 +++
 

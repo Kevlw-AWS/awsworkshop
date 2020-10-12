@@ -2,7 +2,6 @@
 title = "Review S3 bucket inventory"
 date = 2020-07-30T15:55:47-05:00
 weight = 10
-chapter = true
 pre = "<b></b>"
 +++
 

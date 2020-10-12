@@ -2,7 +2,6 @@
 title = "Investigate the results from the Scan all buckets job"
 date = 2020-07-30T15:56:17-05:00
 weight = 12
-chapter = true
 pre = "<b> </b>"
 +++
 

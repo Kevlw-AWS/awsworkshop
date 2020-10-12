@@ -2,7 +2,6 @@
 title = "Review the Lambda"
 date = 2020-07-30T15:09:32-05:00
 weight = 14
-chapter = true
 pre = "<b></b>"
 +++
 

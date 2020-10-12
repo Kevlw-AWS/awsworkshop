@@ -2,7 +2,6 @@
 title = "Investigate the results from the Project Data discovery job"
 date = 2020-07-30T15:56:40-05:00
 weight = 15
-chapter = true
 pre = "<b></b>"
 +++
 

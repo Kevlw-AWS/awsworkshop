@@ -3,7 +3,6 @@ title = "Macie and KMS Encryption Keys"
 menuTitle = "Macie and KMS Keys"
 date = 2020-07-30T15:08:24-05:00
 weight = 10
-chapter = true
 pre = "<b> </b>"
 +++
 

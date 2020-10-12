@@ -3,7 +3,6 @@ title = "Create a EventBridge rule for remediation"
 menuTitle = "EventBridge rule"
 date = 2020-07-30T15:08:58-05:00
 weight = 12
-chapter = true
 pre = "<b></b>"
 +++
 

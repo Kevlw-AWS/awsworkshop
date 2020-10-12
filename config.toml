@@ -8,12 +8,10 @@ theme = "learn"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
-
-
-# uglyurls = true
-# sectionPagesMenu = "main"
-# pygmentsCodeFences = true
-# pygmentsStyle = "monokai"
+uglyurls = true
+sectionPagesMenu = "main"
+pygmentsCodeFences = true
+pygmentsStyle = "monokai"
 
 [params]
   ordersectionsby = "weight"
@@ -36,6 +34,12 @@ home = [ "HTML", "RSS", "JSON"]
 [blackfriday]
 plainIDAnchors = true
 hrefTargetBlank = true
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [Languages]
 [Languages.en]

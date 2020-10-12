@@ -1,8 +1,7 @@
 +++
-title = "Create the second Data Classification Job"
+title = "Create second Data Classification Job"
 date = 2020-07-30T15:09:13-05:00
 weight = 16
-chapter = true
 pre = "<b></b>"
 +++
 

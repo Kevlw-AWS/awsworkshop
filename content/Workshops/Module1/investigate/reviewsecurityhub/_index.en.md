@@ -2,7 +2,6 @@
 title = "Review Security Hub Alerts"
 date = 2020-07-30T15:56:00-05:00
 weight = 11
-chapter = true
 pre = "<b></b>"
 +++
 
