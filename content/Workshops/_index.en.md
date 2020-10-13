@@ -12,7 +12,7 @@ These workshops are designed to help you get familiar with AWS Security and Oper
 
 At the start of each workshop you will be able to watch a short video that will provide you an overview and a real world example.
 
-| Topic | Description | Time |
+| Topic | Description | Time        |
 |-----------|---------|---------|
 |[Data Discovery and Classification with Macie](/workshops/module1) | This workshop is designed to help you get familiar with Amazon Macie and learn how to scan and classify data in your S3 buckets. You will be working with Amazon Macie (data classification) and AWS Security Hub (centralized security view) to view and understand how data in your environment in stored and to understand any changes in S3 bucket policies that may negatively affect your security posture. You will learn to create a custom data identifier and how to create and scope data discovery and classification jobs in Amazon Macie. Finally you will use Amazon Macie to filter and investigate the results from the scans that you created. | 1 - 2 hours |
 |[Threat detection and response in AWS](/workshops/module2)| This workshop is designed to help you get familiar with AWS Security services and learn how to use them to identify and remediate threats in your environment. You'll be working with services such as Amazon GuardDuty (threat detection), Amazon Inspector (vulnerability & behavior analysis), AWS Security Hub (centralized security view). | 1 - 2  hours |
