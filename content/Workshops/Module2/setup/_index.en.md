@@ -33,7 +33,7 @@ To initiate the scenario and configure your environment you will need to run the
 
 Region| Deploy
 ------|-----
-US West 2 (Oregon) | <a href="https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=ThreatDetectionWksp-Env-Setup&templateURL=https://s3-us-west-2.amazonaws.com/sa-security-specialist-workshops-us-west-2/threat-detect-workshop/staging/01-environment-setup-nom.yml" target="_blank">![Deploy Module 1 in us-west-2](./images/deploy-to-aws.png)</a>
+US West 2 (Oregon) | <a href="https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=ThreatDetectionWksp-Env-Setup&templateURL=https://s3-us-west-2.amazonaws.com/sa-security-specialist-workshops-us-west-2/threat-detect-workshop/staging/01-environment-setup-nom.yml" target="_blank">![Deploy Module 1 in us-west-2](/images/deploy-to-aws.png)</a>
 
 1. Click the **Deploy to AWS** button above.  This will automatically take you to the console to run the template, click Next to get to the Specify Details page. 
 
@@ -49,11 +49,11 @@ US West 2 (Oregon) | <a href="https://console.aws.amazon.com/cloudformation/home
 
 5. Finally, scroll down and check the box to acknowledge that the template will create IAM roles and click **Create**.
 
-![IAM Capabilities](./images/iam-capabilities.png)
+![IAM Capabilities](/images/iam-capabilities.png)
 
 This will bring you back to the CloudFormation console. You can refresh the page to see the stack starting to create. Before moving on, make sure the stack is in a **CREATE_COMPLETE** status as shown below.
 
-![Stack Complete](./images/01-stack-complete.png)
+![Stack Complete](/images/01-stack-complete.png)
 
 !!! info "Do not forget to check your email!"
 
@@ -149,6 +149,6 @@ AWS Security Hub is now enabled and will begin collecting and aggregating findin
 
 Your environment is now configured and ready for operations.  Below is a diagram to depict the detective controls you now have in place.
 
-![Detective Controls](./images/01-diagram-modulev2.png)
+![Detective Controls](/images/01-diagram-modulev2.png)
 
 After you have successfully setup your environment, you can proceed to the next module.
