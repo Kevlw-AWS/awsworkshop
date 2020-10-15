@@ -1,6 +1,6 @@
 +++
-title = "Review"
-menuTitle = "Review"
+title = "Finish"
+menuTitle = "Finish"
 date = 2020-07-30T11:30:52-05:00
 weight = 10
 +++
