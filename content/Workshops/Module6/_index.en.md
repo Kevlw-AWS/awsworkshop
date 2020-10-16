@@ -5,3 +5,16 @@ weight = 30
 chapter = false
 +++
 
+In this workshop you'll learn how you can detect a sleeper agent who has compromised your  AWS account!
+
+ Luckily you were alerted and able to evict the attacker quickly, or so you thought. The attacker seems to have a mysterious way of getting back into your account no matter what you do, can you stop him? What can you do to prevent, detect, and respond to such incidents in the future?
+
+
+ Background
+ 
+An attacker got hold of a pair of access/secret keys from Github and got into your AWS account. GuardDuty detected the intrusion and raised an unauthorized credential exfiltration alert. The compromised credentials were quickly identified. You immediately deactivated the stolen keys and disabled the compromised account. Breathing a sigh of relief, you felt like you fought off this attack.
+A few days later after a new user was created, you were woken up to another GuardDuty alert. The attacker is back!! You went through the same motions to evict the attacker, but started to have a bad feeling about this.
+
+
+### Lab Steps
+{{% children depth=3 %}}
