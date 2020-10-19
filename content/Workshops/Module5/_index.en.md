@@ -5,3 +5,4 @@ weight = 30
 chapter = false
 +++
 
+Your business is growing and new customers are flocking to the site everyday. The Customer database has lots of sensitive data and the password to the database is no longer a secret. We need to address this immediately!
