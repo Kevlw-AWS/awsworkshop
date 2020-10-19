@@ -57,9 +57,11 @@ This will bring you back to the CloudFormation console. You can refresh the page
 
 ![Stack Complete](/images/01-stack-complete.png)
 
-!!! info "Do not forget to check your email!"
+{{% notice info %}}
+Do not forget to check your email!
+{{% /notice %}}
 
- You will get an email from SNS asking you to confirm the Subscription. **Confirm the subscription** so you can receive email alerts from AWS services during the workshop. The email may take 2-3 minutes to arrive, check your spam/junk folder if it doesn’t arrive within that timeframe.
+You will get an email from SNS asking you to confirm the Subscription. **Confirm the subscription** so you can receive email alerts from AWS services during the workshop. The email may take 2-3 minutes to arrive, check your spam/junk folder if it doesn’t arrive within that timeframe.
 
 ## Setup Amazon CloudWatch event rules and automatic response
 
@@ -101,8 +103,9 @@ Click **Configure details** at the bottom.
 7. Click **Create rule**.
 **Optional:** Consider examining the Lambda function to see what it does.  Open the <a href="https://us-west-2.console.aws.amazon.com/lambda/home?region=us-west-2" target="_blank">Lambda console</a>. Click on the function named **threat-detection-wksp-remediation-nacl**
 
-    !!! question "What will the function do when invoked?"
-
+{{% notice tip %}}
+What will the function do when invoked?
+{{% /notice %}}
 
 <!-- ## Enable Amazon Macie
 
@@ -143,7 +146,9 @@ Now that all of your detective controls have been configured you need to enable 
 
 3.	On the next screen click the **Enable AWS Security Hub** button.
 
-!!! note "If you see red text ```AWS Config is not enabled on some accounts``` in the Security Hub Console, you can safely ignore for this workshop."
+{{% notice note %}}
+If you see red text ```AWS Config is not enabled on some accounts``` in the Security Hub Console, you can safely ignore for this workshop.
+{{% /notice %}}
 
 AWS Security Hub is now enabled and will begin collecting and aggregating findings from the security services we have enabled so far.
 
