@@ -29,7 +29,9 @@ GuardDuty is now enabled and continuously monitoring your CloudTrail logs, VPC f
 
 To initiate the scenario and configure your environment you will need to run the module 1 CloudFormation template: 
 
-!!! info "Before you deploy the CloudFormation template feel free to view it <a href="https://github.com/awsrossw/aws-scaling-threat-detection-workshop/blob/EventEngine/templates/01-environment-setup-nom.yml" target="_blank">here</a href>."
+{{% notice note %}}
+Before you deploy the CloudFormation template feel free to view it [here](https://github.com/awsrossw/aws-scaling-threat-detection-workshop/blob/EventEngine/templates/01-environment-setup-nom.yml)
+{{% /notice %}}
 
 Region| Deploy
 ------|-----
