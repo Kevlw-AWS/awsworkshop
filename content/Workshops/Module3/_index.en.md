@@ -5,7 +5,31 @@ weight = 30
 chapter = false
 +++
 
-This workshop is designed to help you get familiar with AWS Storage and Security services  and learn how to use them to secure information on cloud. You will be working with S3 Batch operations and Encryption services. By completing this challenge, you should learn how to create a Batch job to operate on an S3 bucket. You will also use the Batch Operation to encrypt the file.
+This workshop is designed to help you get familiar with AWS Storage and Security services  and learn how to use them to secure information on cloud. You will be working with S3 Batch operations and Encryption services with KMS. By completing this challenge, you will learn:
+* how to create a Batch job to operate on an S3 bucket. 
+* Understand how an IAM role with appropriate KMS permissions can help you do encyrpt/decrypt operations.
+* How this IAM role can be used to encrypt contents of an S3 bucket using S3 Batch. 
+
+### Lab Overview
+
+{{< rawhtml >}}
+<video width="696" height="392" controls>
+  <source src="https://d1tqhetmq9f85b.cloudfront.net/downloads/apacsecweek-lab1.mp4" type="video/mp4">
+  Your browser doesn't support video.
+</video>
+{{< /rawhtml >}}
+
+>  **Speakers: TBD** 
+
+>  *In this video, you’ll also hear from our partner [TBD](https://aws.amazon.com)  highlighting a real-world example of the deployment of the AWS services you’ll use in this lab. For more information, please visit [here](https://aws.amazon.com)*
+
+### Lab Steps
+{{% children depth=2 %}}
+
+Click [here](../module3/setup) to get started!
+
+
+
 
 ## Scenario
 
