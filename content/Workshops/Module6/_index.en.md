@@ -9,6 +9,8 @@ In this workshop you'll learn how you can detect a sleeper agent who has comprom
 
  Luckily you were alerted and able to evict the attacker quickly, or so you thought. The attacker seems to have a mysterious way of getting back into your account no matter what you do, can you stop him? What can you do to prevent, detect, and respond to such incidents in the future?
 
+### Lab Overview
+
  {{< rawhtml >}}
 <video width="696" height="392" controls>
   <source src="https://apj-security-workshop.s3-ap-southeast-2.amazonaws.com/q4/lab6-intro-sourced.mp4" type="video/mp4">
@@ -16,6 +18,9 @@ In this workshop you'll learn how you can detect a sleeper agent who has comprom
 </video>
 {{< /rawhtml >}}
 
+>  **Speakers: TBD** 
+
+>  *In this video, you’ll also hear from our partner [TBD](https://aws.amazon.com)  highlighting a real-world example of the deployment of the AWS services you’ll use in this lab. For more information, please visit [here](https://aws.amazon.com)*
 
 ### Background
  

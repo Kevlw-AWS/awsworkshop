@@ -7,12 +7,18 @@ chapter = false
 
 This workshop is designed to help you get familiar with AWS Security services and learn how to use them to identify and remediate threats in your environment. You'll be working with services such as Amazon GuardDuty (threat detection), Amazon Macie (discover, classify & protect data), Amazon Inspector (vulnerability & behavior analysis), AWS Security Hub (centralized security view). You will learn how to use these services to investigate threats during and after an attack, set up a notification and response pipeline, and add additional protections to improve the security posture of your environment.
 
+### Lab Overview
+
 {{< rawhtml >}}
 <video width="696" height="392" controls>
   <source src="https://apj-security-workshop.s3-ap-southeast-2.amazonaws.com/q4/lab2-intro-cmd.mp4" type="video/mp4">
   Your browser doesn't support video.
 </video>
 {{< /rawhtml >}}
+
+>  **Speakers: TBD** 
+
+>  *In this video, you’ll also hear from our partner [TBD](https://aws.amazon.com)  highlighting a real-world example of the deployment of the AWS services you’ll use in this lab. For more information, please visit [here](https://aws.amazon.com)*
 
 ## Scenario
 
