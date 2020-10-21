@@ -14,7 +14,7 @@ This workshop is designed to help you get familiar with AWS Storage and Security
 
 {{< rawhtml >}}
 <video width="696" height="392" controls>
-  <source src="https://d1tqhetmq9f85b.cloudfront.net/downloads/apacsecweek-lab1.mp4" type="video/mp4">
+  <source src="https://apj-security-workshop.s3-ap-southeast-2.amazonaws.com/q4/lab3-intro-ac3.mp4" type="video/mp4">
   Your browser doesn't support video.
 </video>
 {{< /rawhtml >}}
