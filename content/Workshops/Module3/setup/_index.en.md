@@ -10,12 +10,13 @@ In this first module you will be configuring your environment to be ready for en
 
 **Agenda**
  
-1. Run the initial CloudFormation Template – 5 min
+1. Run the initial CloudFormation Template – 5 min *[PERFORM THIS STEP IF YOU ARE RUNNING ON YOUR OWN, NOT AT AN AWS EVENT]*
 2. Verify the account inventory - 2 min
 
 
+**STEP BELOW (running CloudFormation Template) IS NOT TO BE DONE IF YOU ARE AT AN AWS EVENT**
 
-## Deploy the AWS CloudFormation template
+## Deploy the AWS CloudFormation template 
 
 To initiate the scenario and configure your environment you will need to run the  CloudFormation template: 
 
@@ -41,5 +42,15 @@ This will bring you back to the CloudFormation console. You can refresh the page
 4. Now click on the completed stack "SpoilerAlert" and click on "Outputs". Note down ARN of the KMS key and the name of the unencrypted spoiler S3 bucket. 
 
 ![Stack Created](/images/03-cfn-output.png)
+
+## So what was created?
+
+**The following items have been created for you:**
+
+- awsome-film-spoilers S3 bucket
+  - Bucket inventory file included
+- Customer Managed KMS Key
+- S3BatchOperationsRole IAM role
+- Clinton's Customer Managed CMK in the KMS
 
 After you have successfully setup your environment and verified the output, you can proceed to the next module.
