@@ -3,7 +3,7 @@ title = "Investigate why credentials are getting stolen"
 menuTitle = "Investigate"
 date = 2020-07-30T15:56:17-05:00
 weight = 12
-pre = "<b> </b>"
+pre = "<b>2. </b>"
 +++
 
 Create a new user

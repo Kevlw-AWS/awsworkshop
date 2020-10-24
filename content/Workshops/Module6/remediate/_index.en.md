@@ -3,7 +3,7 @@ menuTitle = "Remediate"
 title = "Terminate the sleeper agent"
 date = 2020-07-30T11:31:12-05:00
 weight = 12
-pre = "<b> </b>"
+pre = "<b>3. </b>"
 +++
 
 
