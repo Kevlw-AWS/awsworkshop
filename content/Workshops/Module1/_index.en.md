@@ -15,9 +15,9 @@ This workshop is designed to help you get familiar with Amazon Macie and learn h
 </video>
 {{< /rawhtml >}}
 
->  **Speakers: TBD** 
+>  **Speakers: Simon Morse** 
 
->  *In this video, you’ll also hear from our partner [TBD](https://aws.amazon.com)  highlighting a real-world example of the deployment of the AWS services you’ll use in this lab. For more information, please visit [here](https://aws.amazon.com)*
+>  *In this video, you’ll also hear from our partner [Versent](https://versent.com.au/)  highlighting a real-world example of the deployment of the AWS services you’ll use in this lab. For more information, please visit [here](https://versent.com.au/)*
 
 ### Lab Steps
 {{% children depth=2 %}}
