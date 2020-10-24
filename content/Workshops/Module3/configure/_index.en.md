@@ -3,7 +3,7 @@ title = "Configure"
 menuTitle = "Configure"
 date = 2020-07-30T11:30:52-05:00
 weight = 8
-pre = "<b>2. </b>"
+pre = "<b>1. </b>"
 +++
 
 ## Configure S3 Batch Operation
