@@ -25,26 +25,34 @@ In **Module 3** you investigated the attack, remediated the damage, and setup so
 2. Although company policy is that only key-based authentication should be enabled for SSH, at some point password authentication for SSH was enabled on the **Compromised Instance**.  This misconfiguration is identified in the Inspector scan that is triggered from the GuardDuty finding.
 
 3. The **Malicious Host** performed a brute force SSH password attack against the **Compromised Instance**. The brute force attack is designed to be successful.
-	
-	!!! info "**GuardDuty Finding**: UnauthorizedAccess:EC2/SSHBruteForce"
 
-4. The SSH brute force attack was successful and the attacker was able to log in to the **Compromised Instance**.
-	
-	!!! info "Successful login is confirmed in CloudWatch Logs (/threat-detection-wksp/var/log/secure)."
+{{% notice info%}}
+**GuardDuty Finding**: UnauthorizedAccess:EC2/SSHBruteForce
+{{% /notice %}}
+
+1. The SSH brute force attack was successful and the attacker was able to log in to the **Compromised Instance**.
+
+{{% notice info%}}
+Successful login is confirmed in CloudWatch Logs (/threat-detection-wksp/var/log/secure).
+{{% /notice %}}
 
 <!-- 5. The EC2 Instance that is created in the **Module** 2 CloudFormation template disabled default encryption on the **Data** bucket.  In addition the CloudFormation template made the **Data** bucket public.  This is used for the Macie part of the investigation in Module 3. We pretend that the attacker made the bucket public and removed the default encryption from the bucket.
 	
 	!!! info "**Macie Alert**: S3 Bucket IAM policy grants global read rights."
 -->
-6.  The Compromised Instance also has a cron job that continuously pings the Malicious Host to generate a GuardDuty finding based off the custom threat list.
-	
-	!!! info "**GuardDuty Finding**: UnauthorizedAccess:EC2/MaliciousIPCaller.Custom"
+1.  The Compromised Instance also has a cron job that continuously pings the Malicious Host to generate a GuardDuty finding based off the custom threat list.
 
-7. The API Calls that generated the API findings come from the **Malicious Host**. The calls use the temp creds from the IAM role for EC2 running on the **Malicious Host**. The GuardDuty findings are generated because the EIP attached to the **Malicious Host** is in a custom threat list. 
-	
-	!!! info "**GuardDuty Finding**: Recon:IAMUser/MaliciousIPCaller.Custom or **GuardDuty Finding**: UnauthorizedAccess:IAMUser/MaliciousIPCaller.Custom"
+{{% notice info%}}
+**GuardDuty Finding**: UnauthorizedAccess:EC2/MaliciousIPCaller.Custom
+{{% /notice %}}
 
-8. A number of CloudWatch Events Rules are evoked by the GuardDuty findings and then these trigger various services.
+1. The API Calls that generated the API findings come from the **Malicious Host**. The calls use the temp creds from the IAM role for EC2 running on the **Malicious Host**. The GuardDuty findings are generated because the EIP attached to the **Malicious Host** is in a custom threat list. 
+
+{{% notice info%}}
+**GuardDuty Finding**: Recon:IAMUser/MaliciousIPCaller.Custom or **GuardDuty Finding**: UnauthorizedAccess:IAMUser/MaliciousIPCaller.Custom
+{{% /notice %}}
+
+1. A number of CloudWatch Events Rules are evoked by the GuardDuty findings and then these trigger various services.
 	1.	**CloudWatch Event Rule**: The generic GuardDuty finding invokes a CloudWatch Event rule which triggers SNS to send an email.
 	<!-- 2.	**CloudWatch Event Rule**: The generic Macie alert invokes a CloudWatch Event rule which triggers SNS to send an email. -->
 	3.	**CloudWatch Event Rule**: The SSH brute force attack finding invokes a CloudWatch Event rule which triggers a Lambda function to block the attacker IP address of the attacker via a NACL as well as a Lambda function that runs an Inspector scan on the EC2 instance.

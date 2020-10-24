@@ -18,12 +18,12 @@ Now that you have detective and responsive controls setup, you'll be running ano
 To initiate the attack simulation you will need to run the module 2 CloudFormation template: 
 
 {{% notice note %}}
-Before you deploy the CloudFormation template feel free to view it [here](https://github.com/awsrossw/aws-scaling-threat-detection-workshop/blob/EventEngine/templates/02-attack-simulation-nom.yml)
+Before you deploy the CloudFormation template feel free to view it [here](https://apj-security-workshop.s3-ap-southeast-2.amazonaws.com/cfn/02-aws-jam-threat-detection-response-attack-simulation-nom.yml)
 {{% /notice %}}
 
-Region| Deploy
-------|-----
-US West 2 (Oregon) | <a href="https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=ThreatDetectionWksp-Attacks&templateURL=https://s3-us-west-2.amazonaws.com/sa-security-specialist-workshops-us-west-2/threat-detect-workshop/staging/02-attack-simulation-nom.yml" target="_blank">![Deploy Module 2 in us-west-2](/images/deploy-to-aws.png)</a>
+Region|Deploy
+-----|-----
+ap-southeast-2 (Sydney)| <a href="https://console.aws.amazon.com/cloudformation/home?region=ap-southeast-2#/stacks/new?stackName=ThreatDetectionWksp-Env-Setup&templateURL=https://apj-security-workshop.s3-ap-southeast-2.amazonaws.com/cfn/02-aws-jam-threat-detection-response-attack-simulation-nom.yml" target="_blank">![Deploy CloudFormation Template in ap-southeast-2](/images/deploy-to-aws.png)</a>
 
 1. Click the **Deploy to AWS** button above.  This will automatically take you to the console to run the template. 
 
@@ -46,5 +46,5 @@ Below is a diagram of the setup after the module 2 CloudFormation stack is creat
 ![Module 2 Diagram](/images/02-diagram-module2-3v2.png)
 
 {{% notice info%}}
-Please note it will take at least **20 minutes** after the 2nd CloudFormation template has completed before you will start seeing findings.  This would be a great time to go view a video [Stephen Schmidt VIDEO]
+Please note it will take at least **20 minutes** after the 2nd CloudFormation template has completed before you will start seeing findings.
 {{% /notice %}}

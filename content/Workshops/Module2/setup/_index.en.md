@@ -19,7 +19,7 @@ In this first module you will be configuring detective and responsive controls f
 
 Our first step is to enable Amazon GuardDuty, which will continuously monitor your environment for malicious or unauthorized behavior.
 
-1.	Go to the <a href="https://us-west-2.console.aws.amazon.com/guardduty/home?region=us-west-2" target="_blank">Amazon GuardDuty</a> console (us-west-2).
+1.	Go to the <a href="https://ap-southeast-2.console.aws.amazon.com/guardduty/home?region=ap-southeast-2" target="_blank">Amazon GuardDuty</a> console (`ap-southeast-2`).
 2.	If the **Get Started** button is available, click it. If not GuardDuty is enabled and skip step three.
 3.	On the next screen click the **Enable GuardDuty** button.
 
@@ -30,12 +30,12 @@ GuardDuty is now enabled and continuously monitoring your CloudTrail logs, VPC f
 To initiate the scenario and configure your environment you will need to run the module 1 CloudFormation template: 
 
 {{% notice note %}}
-Before you deploy the CloudFormation template feel free to view it [here](https://github.com/awsrossw/aws-scaling-threat-detection-workshop/blob/EventEngine/templates/01-environment-setup-nom.yml)
+Before you deploy the CloudFormation template feel free to view it [here](https://apj-security-workshop.s3-ap-southeast-2.amazonaws.com/cfn/01-aws-jam-threat-detection-response-environment-setup-nom.yml)
 {{% /notice %}}
 
-Region| Deploy
-------|-----
-US West 2 (Oregon) | <a href="https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=ThreatDetectionWksp-Env-Setup&templateURL=https://s3-us-west-2.amazonaws.com/sa-security-specialist-workshops-us-west-2/threat-detect-workshop/staging/01-environment-setup-nom.yml" target="_blank">![Deploy Module 1 in us-west-2](/images/deploy-to-aws.png)</a>
+Region|Deploy
+-----|-----
+ap-southeast-2 (Sydney)| <a href="https://console.aws.amazon.com/cloudformation/home?region=ap-southeast-2#/stacks/new?stackName=ThreatDetectionWksp-Env-Setup&templateURL=https://apj-security-workshop.s3-ap-southeast-2.amazonaws.com/cfn/01-aws-jam-threat-detection-response-environment-setup-nom.yml" target="_blank">![Deploy CloudFormation Template in ap-southeast-2](/images/deploy-to-aws.png)</a>
 
 1. Click the **Deploy to AWS** button above.  This will automatically take you to the console to run the template, click Next to get to the Specify Details page. 
 
@@ -55,7 +55,7 @@ US West 2 (Oregon) | <a href="https://console.aws.amazon.com/cloudformation/home
 
 This will bring you back to the CloudFormation console. You can refresh the page to see the stack starting to create. Before moving on, make sure the stack is in a **CREATE_COMPLETE** status as shown below.
 
-![Stack Complete](/images/01-stack-complete.png)
+![Stack Complete](/images/module2-stack-complete.png)
 
 {{% notice info %}}
 Do not forget to check your email!
@@ -69,7 +69,7 @@ The CloudFormation template you just ran created <a href="https://docs.aws.amazo
 
 Below are steps to create a rule through the console but you can also find out more about doing it programmatically by reviewing the <a href="http://docs.aws.amazon.com/guardduty/latest/ug/guardduty_findings_cloudwatch.html" target="_blank">Amazon GuardDuty Documentation</a>.
 
-1.	Open the <a href="https://us-west-2.console.aws.amazon.com/cloudwatch/home?region=us-west-2" target="_blank">CloudWatch console</a> (us-west-2)
+1.	Open the <a href="https://ap-southeast-2.console.aws.amazon.com/cloudwatch/home?region=ap-southeast-2" target="_blank">CloudWatch console</a> (`ap-southeast-2`)
 2.	In the navigation pane on the left, under **Events**, click **Rules**
 
 	!!! question "What are the current Rules in place setup to do?"
@@ -101,7 +101,7 @@ Click **Configure details** at the bottom.
     * Name: **threat-detection-wksp-guardduty-finding-ec2-maliciousip**
     * Description: **GuardDuty Finding: UnauthorizedAccess:EC2/MaliciousIPCaller.Custom**
 7. Click **Create rule**.
-**Optional:** Consider examining the Lambda function to see what it does.  Open the <a href="https://us-west-2.console.aws.amazon.com/lambda/home?region=us-west-2" target="_blank">Lambda console</a>. Click on the function named **threat-detection-wksp-remediation-nacl**
+**Optional:** Consider examining the Lambda function to see what it does.  Open the <a href="https://ap-southeast-2.console.aws.amazon.com/lambda/home?region=ap-southeast-2" target="_blank">Lambda console</a>. Click on the function named **threat-detection-wksp-remediation-nacl**
 
 {{% notice tip %}}
 What will the function do when invoked?
@@ -111,7 +111,7 @@ What will the function do when invoked?
 
 Since you plan on storing sensitive data in S3, let’s quickly enable Amazon Macie.  Macie is a security service that will continuously monitor data access activity for anomalies and generate alerts when it detects risk of unauthorized access or inadvertent data leaks.
 
-1.	Go to the <a href="https://us-west-2.redirection.macie.aws.amazon.com/" target="_blank">Amazon Macie</a> console (us-west-2).
+1.	Go to the <a href="https://ap-southeast-2.redirection.macie.aws.amazon.com/" target="_blank">Amazon Macie</a> console (`ap-southeast-2`).
 
 2.	Click **Get Started**.
 
@@ -140,7 +140,7 @@ Macie is also used for automatically discovering and classifying sensitive data.
 
 Now that all of your detective controls have been configured you need to enable <a href="https://aws.amazon.com/security-hub/" target="_blank">AWS Security Hub</a>, which will provide you with a comprehensive view of the security and compliance of your AWS environment.
 
-1.	Go to the <a href="https://us-west-2.console.aws.amazon.com/securityhub/home?region=us-west-2#" target="_blank">AWS Security Hub</a> console.
+1.	Go to the <a href="https://ap-southeast-2.console.aws.amazon.com/securityhub/home?region=ap-southeast-2#" target="_blank">AWS Security Hub</a> console.
 
 2.	Click the **Go to Security Hub** button.
 
