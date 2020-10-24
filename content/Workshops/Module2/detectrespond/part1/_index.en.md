@@ -10,7 +10,7 @@ pre = "<b> </b>"
 
 By now you’ve received email alerts from the security services you enabled. Now what? As part of your risk driven detection strategy your organization has decided to prioritize AWS IAM related findings.  
 
-1. Sort through your email alerts and identity an alert related to an AWS IAM principal
+1. Sort through your email alerts and identify an alert related to an AWS IAM principal
 
 {{% notice info%}}
 Amazon GuardDuty Finding: UnauthorizedAccess:IAMUser/MaliciousIPCaller.Custom
