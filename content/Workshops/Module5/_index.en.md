@@ -6,3 +6,16 @@ chapter = false
 +++
 
 Your business is growing and new customers are flocking to the site everyday. The Customer database has lots of sensitive data and the password to the database is no longer a secret. We need to address this immediately!
+
+### Lab Overview
+
+{{< rawhtml >}}
+<video width="696" height="392" controls>
+  <source src="https://apj-security-workshop.s3-ap-southeast-2.amazonaws.com/q4/test-pattern.mp4" type="video/mp4">
+  Your browser doesn't support video.
+</video>
+{{< /rawhtml >}}
+
+>  **Speakers: TBD** 
+
+>  *In this video, you’ll also hear from our partner [TBD](https://aws.amazon.com)  highlighting a real-world example of the deployment of the AWS services you’ll use in this lab. For more information, please visit [here](https://aws.amazon.com)*
