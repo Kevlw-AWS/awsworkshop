@@ -18,9 +18,9 @@ In this workshop you'll learn how you can detect a sleeper agent who has comprom
 </video>
 {{< /rawhtml >}}
 
->  **Speakers: TBD** 
+>  **Speakers: Jem Richards, CTO** 
 
->  *In this video, you’ll also hear from our partner [TBD](https://aws.amazon.com)  highlighting a real-world example of the deployment of the AWS services you’ll use in this lab. For more information, please visit [here](https://aws.amazon.com)*
+>  *In this video, you’ll also hear from our partner [RedBear IT](https://www.redbearit.com.au/)  highlighting a real-world example of the deployment of the AWS services you’ll use in this lab. For more information, please visit [here](https://www.redbearit.com.au/)*
 
 ### Background
  
