@@ -10,7 +10,7 @@ This workshop is designed to help you get familiar with Amazon Macie and learn h
 
 {{< rawhtml >}}
 <video width="696" height="392" controls>
-  <source src="https://d1tqhetmq9f85b.cloudfront.net/downloads/apacsecweek-lab1.mp4" type="video/mp4">
+  <source src="https://apj-security-workshop.s3-ap-southeast-2.amazonaws.com/q4/test-pattern.mp4" type="video/mp4">
   Your browser doesn't support video.
 </video>
 {{< /rawhtml >}}
@@ -23,6 +23,3 @@ This workshop is designed to help you get familiar with Amazon Macie and learn h
 {{% children depth=2 %}}
 
 Click [here](../module1/setup) to get started!
-
-
-
