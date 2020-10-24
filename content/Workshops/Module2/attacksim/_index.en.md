@@ -8,11 +8,6 @@ pre = "<b>2. </b>"
 
 Now that you have detective and responsive controls setup, you'll be running another CloudFormation template which will simulate the actual attack you will be investigating.
 
-**Agenda**
-
-1. Run the second CloudFormation template – 5 min
-2. Threat detection and response presentation – 25 min
-
 ## Deploy the CloudFormation template
 
 To initiate the attack simulation you will need to run the module 2 CloudFormation template: 
