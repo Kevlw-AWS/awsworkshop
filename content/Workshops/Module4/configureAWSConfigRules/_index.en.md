@@ -3,7 +3,7 @@ title = "Configure AWS Config Rules"
 menuTitle = "Configure AWS Config Rules"
 date = 2020-08-18T14:27:09-05:00
 weight = 15
-pre = "<b>3. </b>"
+pre = "<b>2. </b>"
 +++
 
 #### 1. Select Config Rules

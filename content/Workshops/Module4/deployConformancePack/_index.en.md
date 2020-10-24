@@ -3,7 +3,7 @@ title = "Deploy Conformance Pack"
 menuTitle = "Deploy Conformance Pack"
 date = 2020-08-18T14:27:09-05:00
 weight = 25
-pre = "<b>5. </b>"
+pre = "<b>4. </b>"
 +++
 
 #### 1. Deploy your updated conformance pack

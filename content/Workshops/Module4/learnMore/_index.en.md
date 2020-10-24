@@ -3,7 +3,7 @@ title = "Learn More"
 menuTitle = "Learn More"
 date = 2020-08-18T14:27:09-05:00
 weight = 40
-pre = "<b>8. </b>"
+pre = "<b>7. </b>"
 +++
 
 #### Learn more about AWS Config conformance packs

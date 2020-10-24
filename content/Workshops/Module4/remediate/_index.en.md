@@ -3,7 +3,7 @@ title = "View Compliance and Remediation"
 menuTitle = "View Compliance and Remediation"
 date = 2020-08-18T14:27:09-05:00
 weight = 30
-pre = "<b>6. </b>"
+pre = "<b>5. </b>"
 +++
 
 We will check compliance status for each rule in conformance pack and associated resources

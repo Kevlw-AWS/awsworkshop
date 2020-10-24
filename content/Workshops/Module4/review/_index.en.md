@@ -3,7 +3,7 @@ title = "JAM Review"
 menuTitle = "JAM Review"
 date = 2020-08-18T14:27:09-05:00
 weight = 35
-pre = "<b>7. </b>"
+pre = "<b>6. </b>"
 +++
 
 In this workshop you implemented Corective Controls to help address fictional audit concerns using AWS Config Conformance packs.

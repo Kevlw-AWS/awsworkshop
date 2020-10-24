@@ -3,7 +3,7 @@ title = "Configure Conformance Pack"
 menuTitle = "Configure Conformance Pack"
 date = 2020-08-18T14:27:09-05:00
 weight = 20
-pre = "<b>4. </b>"
+pre = "<b>3. </b>"
 +++
 
 #### 1. Source Your AWS account ID

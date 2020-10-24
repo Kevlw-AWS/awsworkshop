@@ -3,7 +3,7 @@ title = "Enable AWS Config"
 menuTitle = "Enable AWS Config"
 date = 2020-08-18T14:27:09-05:00
 weight = 10
-pre = "<b>2. </b>"
+pre = "<b>1. </b>"
 +++
 
 First we need to enable AWS Config and begin tracking of your resources.
