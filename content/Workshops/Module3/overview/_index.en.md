@@ -7,7 +7,7 @@ pre = "<b>0. </b>"
 
 {{% notice note %}}
 This workshop is available in the follow region:   
-**ap-southeast-2 (Sydney, Australia)**  
+**`us-east-2 (Ohio)`**  
 {{% /notice %}}
 
 ## Scenario

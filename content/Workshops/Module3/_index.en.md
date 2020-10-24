@@ -19,9 +19,7 @@ This workshop is designed to help you get familiar with AWS Storage and Security
 </video>
 {{< /rawhtml >}}
 
->  **Speakers: TBD** 
-
->  *In this video, you’ll also hear from our partner [TBD](https://aws.amazon.com)  highlighting a real-world example of the deployment of the AWS services you’ll use in this lab. For more information, please visit [here](https://aws.amazon.com)*
+>  *In this video, you’ll also hear from our partner [AC3](https://www.ac3.com.au/)  highlighting a real-world example of the deployment of the AWS services you’ll use in this lab. For more information, please visit [here](https://www.ac3.com.au/)*
 
 
 

@@ -23,7 +23,7 @@ You will also learn how to improve your security posture by remediating non-comp
 >  *In this video, you’ll also hear from our partner [Sourced](https://www.sourcedgroup.com/)  highlighting a real-world example of the deployment of the AWS services you’ll use in this lab. For more information, please visit [here](https://www.sourcedgroup.com/)*
 
 ## Region
-Please use the **`ap-southeast-2 (Sydney)`** region for this workshop.
+Please use the **`us-west-2 (Oregon)`** region for this workshop.
 
 ## Modules
 

@@ -6,8 +6,8 @@ pre = "<b>0. </b>"
 +++
 
 {{% notice note %}}
-This workshop is available in the follow region:   
-**ap-southeast-2 (Sydney, Australia)**  
+This workshop is available in the follow region:  
+**`us-west-2 (Oregon)`**  
 {{% /notice %}}
 
 
