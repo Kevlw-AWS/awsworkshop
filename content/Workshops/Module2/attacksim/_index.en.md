@@ -18,7 +18,7 @@ Before you deploy the CloudFormation template feel free to view it [here](https:
 
 Region|Deploy
 -----|-----
-ap-southeast-2 (Sydney)| <a href="https://console.aws.amazon.com/cloudformation/home?region=ap-southeast-2#/stacks/new?stackName=ThreatDetectionWksp-Env-Setup&templateURL=https://apj-security-workshop.s3-ap-southeast-2.amazonaws.com/cfn/02-aws-jam-threat-detection-response-attack-simulation-nom.yml" target="_blank">![Deploy CloudFormation Template in ap-southeast-2](/images/deploy-to-aws.png)</a>
+ap-southeast-2 (Sydney)| <a href="https://console.aws.amazon.com/cloudformation/home?region=ap-southeast-2#/stacks/new?stackName=ThreatDetectionWksp-Attacks&templateURL=https://apj-security-workshop.s3-ap-southeast-2.amazonaws.com/cfn/02-aws-jam-threat-detection-response-attack-simulation-nom.yml" target="_blank">![Deploy CloudFormation Template in ap-southeast-2](/images/deploy-to-aws.png)</a>
 
 1. Click the **Deploy to AWS** button above.  This will automatically take you to the console to run the template. 
 

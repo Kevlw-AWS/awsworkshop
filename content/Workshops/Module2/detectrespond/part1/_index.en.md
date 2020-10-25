@@ -22,15 +22,15 @@ Amazon GuardDuty Finding: UnauthorizedAccess:IAMUser/MaliciousIPCaller.Custom
 
 Now that you have a resource identifier to pivot from you can use Amazon GuardDuty to start doing an initial investigation into these findings.
 
-1. Go to the <a href="https://ap-southeast-2.console.aws.amazon.com/guardduty/" target="_blank">Amazon GuardDuty</a> console (ap-southeast-2).
+2. Go to the <a href="https://ap-southeast-2.console.aws.amazon.com/guardduty/" target="_blank">Amazon GuardDuty</a> console (ap-southeast-2).
 
-2. Click in the **Add filter criteria** box, select **Access Key ID**, and then paste in the `<Access Key ID>` you copied from the e-mail, then select **Apply**.
+3. Click in the **Add filter criteria** box, select **Access Key ID**, and then paste in the `<Access Key ID>` you copied from the e-mail, then select **Apply**.
 
 {{% notice tip%}}
 What findings do you see related to this Access Key ID?
 {{% /notice %}}
 	
-3. Click on one of the findings to see the details.
+4. Click on one of the findings to see the details.
 
 {{% notice tip%}}
 What principal are these credentials associated with?
@@ -104,35 +104,40 @@ Now that you have identified that a temporary security credential from an IAM ro
 
 5.  Click the acknowledgement **check box** and then click **Revoke active sessions**. 
 
-    !!! question "What is the mechanism that is put in place by this step to actually prevent the use of the temporary security credentials issued by this role?"
+{{% notice note%}}
+What is the mechanism that is put in place by this step to actually prevent the use of the temporary security credentials issued by this role?
+{{% /notice %}}
 
 **Restart the EC2 instance to rotate the access keys (EC2)**
 
 All active credentials for the compromised IAM role have been invalidated.  This means the attacker can no longer use those access keys, but it also means that any applications that use this role can't as well.  You knew this going in but decided it was necessary due to the high risk of a compromised IAM access key. In order to ensure the availability of your application you need to refresh the access keys on the instance by stopping and starting the instance. *A simple reboot will not change the keys.* If you waited the temporary security credential on the instance would be refreshed but this procedure will speed things up. Since you are using AWS Systems Manager for administration on your EC2 instances you can use it to query the metadata to validate that the access keys were rotated after the instance restart.
 
-6. In the <a href="https://ap-southeast-2.console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#Instances:sort=instanceId" target="_blank">EC2 console</a> **Stop** the Instance named **threat-detection-wksp: Compromised Instance**.
+1. In the <a href="https://ap-southeast-2.console.aws.amazon.com/ec2/v2/home?region=ap-southeast-2#Instances:sort=instanceId" target="_blank">EC2 console</a> **Stop** the Instance named **threat-detection-wksp: Compromised Instance**.
 
 Check the box next to the instance, select the **Actions menu**, **Instance State**, **Stop**, confirm by pressing **Yes**, **Stop**
 
 7. Wait for the Instance State to say **stopped** under **Instance State** (you may need to refresh the EC2 console) and then **Start** the instance.
 
-    !!! info "You will need to wait until all Status Checks have passed before continuing."
+{{% notice note%}}
+You will need to wait until all Status Checks have passed before continuing.
+{{% /notice %}}
 
 **Verify the access keys have been rotated (Systems Manager)**
 
-8.  Go to <a href="https://ap-southeast-2.console.aws.amazon.com/systems-manager/session-manager?region=ap-southeast-2" target="_blank">AWS Systems Manager</a> console and click on **Session Manager** on the left navigation and then click **Start Session**.  
+1.  Go to <a href="https://ap-southeast-2.console.aws.amazon.com/systems-manager/session-manager?region=ap-southeast-2" target="_blank">AWS Systems Manager</a> console and click on **Session Manager** on the left navigation and then click **Start Session**.  
 
     You should see an instance named **threat-detection-wksp: Compromised Instance** with a **Instance state** of **running**.
     
-9.  To see the credentials currently active on the instance, click on the radio button next to **threat-detection-wksp: Compromised Instance** and click **Start Session**.
+2.  To see the credentials currently active on the instance, click on the radio button next to **threat-detection-wksp: Compromised Instance** and click **Start Session**.
 
 11.	Run the following command in the shell and compare the access key ID to the one found in the email alerts to ensure it has changed:
 	
 ``` bash
 curl http://169.254.169.254/latest/meta-data/iam/security-credentials/threat-detection-wksp-compromised-ec2
 ```
-
-!!! question "Why would this scenario be a good use case for auto-scaling groups?" 
+{{% notice note%}}
+Why would this scenario be a good use case for auto-scaling groups?
+{{% /notice %}}
 
 At this point you've successfully revoked all the active sessions from AWS IAM role and rotated the temporary security credentials on the EC2 instance.
 
