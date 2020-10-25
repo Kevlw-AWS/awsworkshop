@@ -5,9 +5,9 @@ weight = 30
 chapter = false
 +++
 
-This workshop is designed to help you learn how to build a solution that will evaluate your AWS resources for configuration compliance using **AWS Config** Conformance Packs. 
+This challenge provides an environment that must be re-architected to meet PCI DSS compliance.
 
-You will also learn how to improve your security posture by remediating non-compliant resources using automatic remediation actions.
+The output of the CloudFormation template provides a status URL that should be checked for realtime status of compliance. Once all issues have been remediated, the answer key will be revealed on the status web site.
 
 ### Lab Overview
 
