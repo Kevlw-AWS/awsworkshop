@@ -16,14 +16,13 @@ The Head of Privacy for AWSome Films, Clinton, has tasked you with encrypting th
 
 ### Architecture
 
-For this workshop, you will use single s3 bucket in the Sydney, ap-southeast-2 region and IAM role to carry out encryption of bucket file through S3 batch operation. 
+For this workshop, you will use single s3 bucket in the Sydney, `us-east-2` region and IAM role to carry out encryption of bucket file through S3 batch operation. 
 
 ![Architecture](/images/03-arch.png "Workload Architecture")
 
 ### Modules
 This workshop is broken down into four modules
 
-1. Setup
-2. Configure S3 Batch
-3. Investigate and Understand
-4. Review and Discussion
+1. Configure S3 Batch
+2. Investigate and Understand
+3. Review
