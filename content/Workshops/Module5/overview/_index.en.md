@@ -8,7 +8,7 @@ pre = "<b>1. </b>"
 
 {{% notice note %}}
 This workshop is available in the follow region:   
-**ap-southeast-2 (Sydney, Australia)**  
+**`us-west-2 (Oregon)`**  
 {{% /notice %}}
 
 <h1>Summary</h1>
@@ -26,7 +26,7 @@ This workshop is available in the follow region:
     <p>Lambda functions with RESTful APIs</p>
   </li></ul>
 <h3>Getting Started</h3>
-<p>Check the Output Properties tab and try accessing the URL of the API. This will output the query results run by the Lambda function against the MySQL database. Find the Lambda with hard-coded database credentials and fix them using AWS Secrets Manager.
+<p>Check the Output Properties tab in the Jam and try accessing the URL of the API. This will output the query results run by the Lambda function against the MySQL database. Find the Lambda with hard-coded database credentials and fix them using AWS Secrets Manager.
   Try the API URL again after the fix to make sure query results returned correctly. You will get the answer in a new S3 bucket after you removed the hard-coded password from the Lambda environment variables and have started managing the database password
   correctly. </p>
 
