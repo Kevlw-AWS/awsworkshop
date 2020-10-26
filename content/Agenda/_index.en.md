@@ -10,5 +10,4 @@ The AWS Cloud Security Virtual event aims to improve your cloud security skills 
   - [Workshops](./workshops.html) 
   - [On-Demand Tracks](./ondemandtracks.html)
   - [Learning Resources](./training.html)
-  - [Additional Links](./links.html)
   - [FAQ](./faq.html)
