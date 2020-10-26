@@ -21,7 +21,7 @@ For this workshop, you will use single s3 bucket in the Sydney, `us-east-2` regi
 ![Architecture](/images/03-arch.png "Workload Architecture")
 
 ### Modules
-This workshop is broken down into four modules
+This workshop is broken down into three modules
 
 1. Configure S3 Batch
 2. Investigate and Understand

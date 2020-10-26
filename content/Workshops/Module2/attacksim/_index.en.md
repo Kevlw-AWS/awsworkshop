@@ -32,7 +32,9 @@ This will bring you back to the CloudFormation console. You can refresh the page
 
 ![Stack Complete](/images/02-stack-complete.png)
 
-!!! info "If this fails with the error message ***\[IAM_CAPABILITY\]***, please acknowledge that the template will create IAM roles, from the previous step"
+{{% notice info %}}
+If this fails with the error message ***\[IAM_CAPABILITY\]***, please acknowledge that the template will create IAM roles, from the previous step
+{{% /notice %}}
 
 ## Architecture overview
 

@@ -72,7 +72,9 @@ Below are steps to create a rule through the console but you can also find out m
 1.	Open the <a href="https://ap-southeast-2.console.aws.amazon.com/cloudwatch/home?region=ap-southeast-2" target="_blank">CloudWatch console</a> (`ap-southeast-2`)
 2.	In the navigation pane on the left, under **Events**, click **Rules**
 
-	!!! question "What are the current Rules in place setup to do?"
+{{% notice note %}}
+What are the current Rules in place setup to do?
+{{% /notice %}}
 	
 3.	Click **Create Rule**
 
@@ -94,7 +96,7 @@ Copy and paste in the custom event pattern below:
 }
 ```
 	
-5. For *Targets*, click **Add Target**, select **Lambda Function**, and then select **threat-detection-wksp-remediation-nacl**. 
+1. For *Targets*, click **Add Target**, select **Lambda Function**, and then select **threat-detection-wksp-remediation-nacl**. 
 Click **Configure details** at the bottom.
 
 6.	On the **Configure rule details** screen fill out the **Name** and **Description** (suggestions below).
