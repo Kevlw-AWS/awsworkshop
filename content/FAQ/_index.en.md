@@ -15,17 +15,6 @@ weight = 11000
 
 #### How to request your hash for EventEngine and open the AWS Console?
 
-1) Request hash code by asking a question in GotoWebinar. Expand the Questions pane within GotoWebinar and request a hash.
-![](/images/faq1.png)
-2) Open [EventEngine](https://dashboard.eventengine.run)
-![](/images/2019-10-23-17-03-16.png)
-3) Enter hash
-![](/images/2019-10-25-16-25-15.png)
-4) Open AWS Console
-![](/images/2019-10-25-16-25-47.png)
-5) Now you can begin the labs!
-
-
 
 #### How to ask for help
 
