@@ -16,7 +16,7 @@ The Head of Privacy for AWSome Films, Clinton, has tasked you with encrypting th
 
 ### Architecture
 
-For this workshop, you will use single s3 bucket in the Sydney, `us-east-2` region and IAM role to carry out encryption of bucket file through S3 batch operation. 
+For this workshop, you will use single s3 bucket in the Oregon, `us-east-2` region and IAM role to carry out encryption of bucket file through S3 batch operation. 
 
 ![Architecture](/images/03-arch.png "Workload Architecture")
 
