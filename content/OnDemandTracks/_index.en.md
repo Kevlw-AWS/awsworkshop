@@ -3,6 +3,14 @@ title = "On-Demand Tracks"
 weight = 4
 +++
 
+#### Steve Schmidt (AWS CISO) | The State of the Workplace and Innovative Security Culture
+
+{{< rawhtml >}}
+<video width="696" height="392" controls>
+  <source src="https://apj-security-workshop.s3-ap-southeast-2.amazonaws.com/q4/091120-APAC-RoadShow-r1.mp4" type="video/mp4">
+  Your browser doesn't support video.
+</video>
+{{< /rawhtml >}}
 
 ## On-Demand Tracks 
 

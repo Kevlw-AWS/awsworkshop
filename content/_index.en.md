@@ -13,15 +13,11 @@ Security and Compliance is a [shared responsibility](https://aws.amazon.com/comp
 
 The workshops and other hands-on content we will discuss are focused on the **Security in the Cloud** and they will guide you through prepared scenarios that represent common use cases and operational tasks you'll face in building securely on AWS. They will also highlight the design principals from the [AWS Well-Architected Framework Security Pillar](https://d1.awsstatic.com/whitepapers/architecture/AWS-Security-Pillar.pdf), which can help you improve your security posture. Additional frameworks that will be discussed include the [NIST Cyber Security Framework](https://www.nist.gov/cyberframework/online-learning/components-framework) and the [AWS Cloud Adoption Framework Security Perspective](https://d0.awsstatic.com/whitepapers/AWS_CAF_Security_Perspective.pdf). Having an understanding of these frameworks will help you in adopting the practices discussed in this AWS Cloud Security Virtual Event within your organizations.
 
+#### Steve Schmidt (AWS CISO) | The State of the Workplace and Innovative Security Culture
+
 {{< rawhtml >}}
 <video width="696" height="392" controls>
   <source src="https://apj-security-workshop.s3-ap-southeast-2.amazonaws.com/q4/091120-APAC-RoadShow-r1.mp4" type="video/mp4">
   Your browser doesn't support video.
 </video>
 {{< /rawhtml >}}
-
-## Agenda
- 
-  - [Workshops](/agenda/#workshops) 
-  - [On-Demand Tracks](/agenda/#on-demand-tracks)
-
