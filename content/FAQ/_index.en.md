@@ -4,57 +4,31 @@ date = 2019-11-18T08:29:21+11:00
 weight = 11000
 +++
 
-  - [How to request your hash for EventEngine and open the AWS Console?](#how-to-request-your-hash-for-eventengine-and-open-the-aws-console) 
-  - [How to ask for help?](#how-to-ask-for-help)   
-  - [I am Stuck on a step in the labs?](#i-am-stuck-on-a-step-in-the-labs)  
-  - [I need more time to do the labs](#i-need-more-time-to-do-the-labs)
-  - [The Website or AWS Console is not working properly on my browser](#the-website-or-aws-console-is-not-working-properly-on-my-browser)
-  - [I am unable to connect as instructed in the labs](#i-am-unable-to-connect-as-instructed-in-the-labs)
-  - [I am unable to connect via SSH or RDP as instructed in Lab 1, Step 6](#lab-1-step-6---i-am-unable-to-get-this-working-or-connecting-via-ssh-or-rdp-as-instructed)
+**How do I sign-on to Jam?**
+
+All of today’s sessions are through the AWS Jam platform at https://jam.aws.events.com/. If you have played an AWS jam before use your existing account otherwise register for a new one. The secret key for today’s event is available in the Go To Webinar session.
+
+**I’ve played before but forgot my password, how do I reset it?**
+
+Forgot password is self-service at https://jam.awsevents.com/forgot-password. 
+
+**I haven’t received my verification or password reset email**
+
+Check your spam folder and make sure you have entered the correct email address. You can validate this by attempting to sign up again - if you previously signed up you will be prevented from doing so again. Try resetting your password at https://jam.awsevents.com/forgot-password. 
+
+**What’s the User name / password to access the AWS Console? What region should my Jam be in?**
+
+Each team is setup with a separate account for each challenge they compete in. You can access your account through the console or CLI using buttons in the top right of the challenge page. If the challenge requires SSH access your key will be available there too. Your account number and the region your challenge is deployed in is displayed at the bottom of the screen.
+
+**The page doesn’t seem to load or I’m having issues with the Jam website**
+
+We currently recommend Chrome or Firefox for use with the Jam. We cannot guarantee support on IE or Edge. Also ensure any extensions that block content such as adblock allow content to load on the AWS Jam platform.
+
+**I’m stuck with this challenge, help!**
+
+A number of unlockable clues are available to help guide you through each challenge. If you are still stuck hit the “Need more Help?” on the challenge overview page.
 
 
-#### How to request your hash for EventEngine and open the AWS Console?
 
 
-#### How to ask for help
 
-1) Within your GotoWebinar panel, expand the Questions pane and ask a question
-![](/images/faq2.png)
-
-#### I am Stuck on a step in the labs
-
-1) Watch the **I am Stuck** video at the end of the page on the step
-![](/images/faq3.png)
-
-
-2) If that still does not help, ask one of our moderators for help
-
-
-#### I need more time to do the labs
-
-1) Choose 1 or 2 labs that you'd like to do with AWS staff on standby.
-
-2) The EventEngine labs will be available till midnight AEST, you can continue to work on the labs without AWS staff support.
-
-2) You can also deploy the Cloudformation templates found in the [Additional Links](/links/) into your own AWS accounts. 
-
-#### The Website or AWS Console is not working properly on my browser
-
-1) Download and install the latest versions of Google Chrome, Mozilla Firefox or Microsoft Internet Explorer 11.
-
-2) If you are using a corporate machine behind a VPN, you may wish to test it outside of the VPN.
-
-
-#### I am unable to connect as instructed in the labs
-
-1) Download and install the latest versions of Google Chrome, Mozilla Firefox or Microsoft Internet Explorer 11.
-
-2) If you are using a corporate machine behind a VPN, you may wish to test it outside of the VPN.
-
-3) If you seat behind restricted access to the Internet, you may not be able to complete all labs.
-
-#### Lab 1, Step 6 - I am unable to get this working or connecting via SSH or RDP as instructed
-
-1) You require local admin access for this particular step. If you do not have that, you may wish to skip this step.
-
-2) Your internet access may be restricted preventing connectivity. 
