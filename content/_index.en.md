@@ -16,7 +16,7 @@ The workshops and other hands-on content we will discuss are focused on the **Se
 #### Steve Schmidt (AWS CISO) | The State of the Workplace and Innovative Security Culture
 
 {{< rawhtml >}}
-<video width="696" height="392" controls>
+<video width="100%" height="100%" controls>
   <source src="https://apj-security-workshop.s3-ap-southeast-2.amazonaws.com/q4/091120-APAC-RoadShow-r1.mp4" type="video/mp4">
   Your browser doesn't support video.
 </video>

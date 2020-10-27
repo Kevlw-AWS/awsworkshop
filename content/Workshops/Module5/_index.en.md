@@ -10,7 +10,7 @@ Your business is growing and new customers are flocking to the site everyday. Th
 ### Lab Overview
 
 {{< rawhtml >}}
-<video width="696" height="392" controls>
+<video width="100%" height="540" controls>
   <source src="https://apj-security-workshop.s3-ap-southeast-2.amazonaws.com/q4/lab5-intro-tcs.mp4" type="video/mp4">
   Your browser doesn't support video.
 </video>

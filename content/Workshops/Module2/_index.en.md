@@ -10,7 +10,7 @@ This workshop is designed to help you get familiar with AWS Security services an
 ### Lab Overview
 
 {{< rawhtml >}}
-<video width="696" height="392" controls>
+<video width="100%" height="540" controls>
   <source src="https://apj-security-workshop.s3-ap-southeast-2.amazonaws.com/q4/lab2-intro-cmd.mp4" type="video/mp4">
   Your browser doesn't support video.
 </video>

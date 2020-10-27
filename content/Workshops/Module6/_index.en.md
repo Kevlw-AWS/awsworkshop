@@ -12,7 +12,7 @@ In this workshop you'll learn how you can detect a sleeper agent who has comprom
 ### Lab Overview
 
  {{< rawhtml >}}
-<video width="696" height="392" controls>
+<video width="100%" height="540" controls>
   <source src="https://apj-security-workshop.s3-ap-southeast-2.amazonaws.com/q4/lab6-intro-sourced.mp4" type="video/mp4">
   Your browser doesn't support video.
 </video>
