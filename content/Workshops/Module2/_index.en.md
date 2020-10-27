@@ -18,7 +18,7 @@ This workshop is designed to help you get familiar with AWS Security services an
 
 >  **Speakers: David Luchi** 
 
->  *In this video, you’ll also hear from our partner [CMD](https://www.cmdsolutions.com.au/) highlighting a real-world example of the deployment of the AWS services you’ll use in this lab. For more information, please visit [here](https://www.cmdsolutions.com.au/)*
+>  *In this video, you’ll also hear from our partner [CMD](https://a.mzn.cloud/jam-cmd) discussing the workshop you'll undertake, the AWS services you'll explore and highlighting a real-world example of the deployment of the AWS services you’ll use. For more information, please visit [CMD](https://a.mzn.cloud/jam-cmd)*
 
 ## Scenario
 

@@ -20,7 +20,7 @@ In this workshop you'll learn how you can detect a sleeper agent who has comprom
 
 >  **Speakers: Jem Richards, CTO** 
 
->  *In this video, you’ll also hear from our partner [RedBear IT](https://www.redbearit.com.au/)  highlighting a real-world example of the deployment of the AWS services you’ll use in this lab. For more information, please visit [here](https://www.redbearit.com.au/)*
+>  *In this video, you’ll also hear from our partner [RedBear IT](https://a.mzn.cloud/jam-redbearit) discussing the workshop you'll undertake, the AWS services you'll explore and highlighting a real-world example of the deployment of the AWS services you’ll use. For more information, please visit [RedBear IT](https://a.mzn.cloud/jam-redbearit)*
 
 {{% notice warning %}}
 Your AWS account was compromised!! Luckily you were alerted and able to evict the attacker quickly, or so you thought. The attacker seems to have a mysterious way of getting back into your account no matter what you do, can you stop him? What can you do to prevent, detect, and respond to such incidents in the future?

@@ -19,9 +19,7 @@ This workshop is designed to help you get familiar with AWS Storage and Security
 </video>
 {{< /rawhtml >}}
 
->  *In this video, you’ll also hear from our partner [AC3](https://www.ac3.com.au/)  highlighting a real-world example of the deployment of the AWS services you’ll use in this lab. For more information, please visit [here](https://www.ac3.com.au/)*
-
-
+>  *In this video, you’ll also hear from our partner [AC3](https://a.mzn.cloud/jam-ac3) discussing the workshop you'll undertake, the AWS services you'll explore and highlighting a real-world example of the deployment of the AWS services you’ll use. For more information, please visit [AC3](https://a.mzn.cloud/jam-ac3)*
 
 ### Lab Steps
 {{% children depth=1 %}}

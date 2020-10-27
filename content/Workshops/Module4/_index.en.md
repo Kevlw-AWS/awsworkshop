@@ -20,7 +20,7 @@ The output of the CloudFormation template provides a status URL that should be c
 
 >  **Speakers: Keiran Sweet, Principal Consultant** 
 
->  *In this video, you’ll also hear from our partner [Sourced](https://www.sourcedgroup.com/)  highlighting a real-world example of the deployment of the AWS services you’ll use in this lab. For more information, please visit [here](https://www.sourcedgroup.com/)*
+>  *In this video, you’ll also hear from our partner [Sourced](https://a.mzn.cloud/jam-sourced) discussing the workshop you'll undertake, the AWS services you'll explore and highlighting a real-world example of the deployment of the AWS services you’ll use. For more information, please visit [Sourced](https://a.mzn.cloud/jam-sourced)*
 
 ## Region
 Please use the **`us-west-2 (Oregon)`** region for this workshop.

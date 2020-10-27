@@ -16,6 +16,6 @@ Your business is growing and new customers are flocking to the site everyday. Th
 </video>
 {{< /rawhtml >}}
 
->  **Speakers: TBD** 
+>  **Speakers: Abraham Issac** 
 
->  *In this video, you’ll also hear from our partner [TBD](https://aws.amazon.com)  highlighting a real-world example of the deployment of the AWS services you’ll use in this lab. For more information, please visit [here](https://aws.amazon.com)*
+>  *In this video, you’ll also hear from our partner [TCS](https://a.mzn.cloud/jam-tcs) discussing the workshop you'll undertake, the AWS services you'll explore and highlighting a real-world example of the deployment of the AWS services you’ll use. For more information, please visit [TCS](https://a.mzn.cloud/jam-tcs)*

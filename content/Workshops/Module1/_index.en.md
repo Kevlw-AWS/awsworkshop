@@ -17,7 +17,7 @@ This workshop is designed to help you get familiar with Amazon Macie and learn h
 
 >  **Speakers: Simon Morse** 
 
->  *In this video, you’ll also hear from our partner [Versent](https://versent.com.au/)  highlighting a real-world example of the deployment of the AWS services you’ll use in this lab. For more information, please visit [here](https://versent.com.au/)*
+>  *In this video, you’ll also hear from our partner [Versent](https://a.mzn.cloud/jam-versent) discussing the workshop you'll undertake, the AWS services you'll explore and highlighting a real-world example of the deployment of the AWS services you’ll use. For more information, please visit [Versent](https://a.mzn.cloud/jam-versent)*
 
 ### Lab Steps
 {{% children depth=1 %}}
