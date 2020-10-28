@@ -6,6 +6,10 @@ weight = 1
 pre = "<b> </b>"
 +++
 
+{{% notice info%}}
+Please note it will take at least **20 minutes** after the 2nd CloudFormation template has completed before you will start seeing findings.
+{{% /notice %}}
+
 ### Detect and investigate 
 
 By now you’ve received email alerts from the security services you enabled. Now what? As part of your risk driven detection strategy your organization has decided to prioritize AWS IAM related findings.  
