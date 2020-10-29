@@ -5,7 +5,7 @@ chapter = false
 
 +++
 
-## Welcome
+## Welcome 
 
 Welcome to the **AWS Cloud Security Virtual Event**. Virtual attendees can expect two days of security, identity, and compliance learning and community building. Thank you for joining us to dive deep into how AWS can keep your businesses and customers secure in the cloud. Over the next two days you will have access to workshops, sessions, and events to help you gain an understanding of the AWS service ecosystem and introduce you to a variety of best practices that can be applied to securing your environments and workloads running in AWS.
 
