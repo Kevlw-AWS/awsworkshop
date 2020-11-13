@@ -7,7 +7,7 @@ chapter = false
 
 ## Welcome
 
-Welcome to the **AWS Cloud Security Virtual Event**. Virtual attendees can expect two days of security, identity, and compliance learning and community building. Thank you for joining us to dive deep into how AWS can keep your businesses and customers secure in the cloud. Over the next two days you will have access to workshops, sessions, and events to help you gain an understanding of the AWS service ecosystem and introduce you to a variety of best practices that can be applied to securing your environments and workloads running in AWS.
+Welcome to the **AWS Cloud Security Virtual Event**. Virtual attendees can expect a full day of security, identity, and compliance learning and community building. Thank you for joining us to dive deep into how AWS can keep your businesses and customers secure in the cloud. Over the next day you will have access to workshops, sessions, and events to help you gain an understanding of the AWS service ecosystem and introduce you to a variety of best practices that can be applied to securing your environments and workloads running in AWS.
 
 Security and Compliance is a [shared responsibility](https://aws.amazon.com/compliance/shared-responsibility-model/) between AWS and the customer. AWS is responsible for protecting the infrastructure which runs all of the services offered and this responsibility is known as the **Security of the Cloud**. AWS customers benefit from a data center and network architecture built to satisfy the requirements of the most security-sensitive organizations. Customers responsibility, known as the **Security in the Cloud**, is determined by which services the customer chooses to use.
 
