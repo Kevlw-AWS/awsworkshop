@@ -12,11 +12,20 @@ The AWS Cloud Security Virtual event aims to improve your cloud security skills 
   - [Learning Resources](./training.html)
   - [FAQ](./faq.html)
 
-### Security Workshops Introduction
+### Morning Session - Security Workshop (Level 200)
 
 {{< rawhtml >}}
 <video width="100%" height="100%" controls>
-  <source src="https://apj-security-workshop.s3-ap-southeast-2.amazonaws.com/q4/sec-intro.mp4" type="video/mp4">
+  <source src="https://s3.ap-south-1.amazonaws.com/w.secworkshop.in/workshopintro.mp4" type="video/mp4">
+  Your browser doesn't support video.
+</video>
+{{< /rawhtml >}}
+
+### Afternoon Session - Competitive AWS Security Jam (Level 300)
+
+{{< rawhtml >}}
+<video width="100%" height="100%" controls>
+  <source src="https://s3.ap-south-1.amazonaws.com/w.secworkshop.in/jamintro.mp4" type="video/mp4">
   Your browser doesn't support video.
 </video>
 {{< /rawhtml >}}
