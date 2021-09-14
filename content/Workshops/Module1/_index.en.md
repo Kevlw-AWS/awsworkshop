@@ -1,25 +1,20 @@
 +++
-title = "Lab 1: Data Discovery and Classification with Macie"
+title = "1. Accurate Account Info"
 date = 2019-11-18T08:23:04+11:00
 weight = 27
 +++
 
-This workshop is designed to help you get familiar with Amazon Macie and learn how to scan and classify data in your S3 buckets.  You will be working with Amazon Macie (data classification) and AWS Security Hub (centralized security view) to view and understand how data in your environment in stored and to understand any changes in S3 bucket policies that may negatively affect your security posture.  You will learn to create a custom data identifier and how to create and scope data discovery and classification jobs in Amazon Macie.  Finally you will use Amazon Macie to filter and investigate the results from the scans that you created.
+When AWS needs to contact you about your [AWS account](https://aws.amazon.com/answers/security/aws-secure-account-setup/), we use the contact information defined in the AWS Management Console, including the email address used to create the account and those listed under Alternate Contacts. You should also have a process for regularly checking that these email addresses work, and that you are responding to emails—especially security notifications you might receive from abuse@amazon.com.
 
-### Lab Overview
-
-{{< rawhtml >}}
-<video width="100%" height="540" controls>
-  <source src="https://apj-security-workshop.s3-ap-southeast-2.amazonaws.com/q4/lab1-intro-versent.mp4" type="video/mp4">
-  Your browser doesn't support video.
-</video>
-{{< /rawhtml >}}
-
->  **Speakers: Simon Morse** 
-
->  *In this video, you’ll also hear from our partner [Versent](https://a.mzn.cloud/jam-versent) discussing the workshop you'll undertake, the AWS services you'll explore and highlighting a real-world example of the deployment of the AWS services you’ll use. For more information, please visit [Versent](https://a.mzn.cloud/jam-versent)*
+Please note that you will need *Root Account Access* in order to edit your alternate contacts. 
 
 ### Lab Steps
-{{% children depth=1 %}}
+1. Sign in to your AWS Console. 
+2. Click on the arrow next to your account to expand the following drop down options. 
+3.  Select “My Account”.
 
-Click [here](../module1/setup) to get started!
+![Select "My Account"](/images/Module-1-Image-1.png)
+
+4. Scroll down until your find “Alternate Contacts”. Edit your alternate contacts to ensure that the right teams are notified for Billing, Operations and Security. All email addresses should be set up to go to aliases that are not dependent on a single person. 
+
+![Find "Alternate Contacts"](/images/Module-1-Image-2.png)
