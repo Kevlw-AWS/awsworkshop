@@ -1,31 +1,37 @@
 +++
-title = "Lab 4: Architecting for PCI DSS Compliance"
+title = "4. Limit Security Groups"
 date = 2019-11-18T08:23:04+11:00
 weight = 30
 chapter = false
 +++
 
-This challenge provides an environment that must be re-architected to meet PCI DSS compliance.
+Security groups are a key way that you can enable network access to resources you have provisioned on AWS. Ensuring that only the required ports are open and the connection is enabled from known network ranges is a foundational approach to security. 
 
-The output of the CloudFormation template provides a status URL that should be checked for realtime status of compliance. Once all issues have been remediated, the answer key will be revealed on the status web site.
+In this exercise we will use AWS Trusted Advisor’s basic security checks to identify remote access risks associated with the EC2 instance and fix them.
 
-### Lab Overview
+### Steps
 
-{{< rawhtml >}}
-<video width="100%" height="540" controls>
-  <source src="https://apj-security-workshop.s3-ap-southeast-2.amazonaws.com/q4/lab4-intro-sourced.mp4" type="video/mp4">
-  Your browser doesn't support video.
-</video>
-{{< /rawhtml >}}
+1. From the AWS console, click *Services* and select *Trusted Advisor*.
+2. You will notice that there are few risks identified by Trusted Advisor. Click on Security tab. You will notice findings for security groups about open network access. Now let’s fix these issues.
 
->  **Speakers: Keiran Sweet, Principal Consultant** 
+![Fix these issues](/images/Module-4-Image-1.png)
 
->  *In this video, you’ll also hear from our partner [Sourced](https://a.mzn.cloud/jam-sourced) discussing the workshop you'll undertake, the AWS services you'll explore and highlighting a real-world example of the deployment of the AWS services you’ll use. For more information, please visit [Sourced](https://a.mzn.cloud/jam-sourced)*
+3. Click on one of the Security Group findings, which expand with more details. You will also see the list of security group names that have this particular security issue. .
 
-## Region
-Please use the **`us-west-2 (Oregon)`** region for this workshop.
+![Click on Security Group findings](/images/Module-4-Image-2.png)
 
-## Modules
+4. Click on the Security Group Name in the list. It will open a Security Group console on a new browser tab.
 
-This workshop is broken up into the modules below: 
-{{% children depth=2 %}}
+![Click on Security Group name](/images/Module-4-Image-3.png)
+
+5. On Security Groups page, click on the Inbound rules. You will notice that there is one rule allowing open access to port 3389 from the internet, which is not a good practice. Therefore, we need to remove this rule.
+
+![Remove the rule](/images/Module-4-Image-4.png)
+
+6. Click on Edit inbound rules.
+
+7. Click Delete associated with the open port of 3389. Click Save rules, which will remove the rule permanently.
+
+![Click delete](/images/Module-4-Image-5.png)
+8. Now go back to Trusted Advisor tab and click on the Refresh this check icon associated with the security risk.
+9. Trusted Advisor will re-run the check and will show green once it finds that the issue is fixed.

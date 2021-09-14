@@ -22,7 +22,7 @@ Please note: To manage MFA devices for the AWS account, you must be signed in to
 4. Click *Activate MFA*.
 5. In the wizard, click *virtual MFA* device and then click *Continue*.
 
-![Click virtual MFA](/images/Module-1-Image-3.png)
+![Click virtual MFA](/images/Module-2-Image-3.png)
 
 6. On the 'set up virtual MFA device window' click Show QR code.
 7. With the Manage MFA Device wizard still open, open the virtual MFA app on the device.
