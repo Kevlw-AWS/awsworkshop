@@ -12,5 +12,3 @@ Please note: To manage MFA devices for the AWS account, you must be signed in to
 
 ### Lab Steps
 {{% children depth=1 %}}
-
-Click [here](../module2/MFAforRoot) to get started!
