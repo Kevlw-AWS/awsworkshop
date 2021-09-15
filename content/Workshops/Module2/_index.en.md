@@ -66,12 +66,19 @@ Use your AWS account email address and password to sign in as an IAM Admin user 
 ![Select Security Credentials](/images/Module-2-Image-8.png)
 
 7.  With the Manage MFA Device wizard still open, open the virtual MFA app on the device. If the virtual MFA software supports multiple accounts (multiple virtual MFA devices), then click the option to create a new account (a new virtual device).
+
 8. The easiest way to configure the app is to use the app to scan the QR code. If you cannot scan the code, you can type the configuration information manually.
+
 9. To use the QR code to configure the virtual MFA device, follow the app instructions for scanning the code. For example, you might need to tap the camera icon or tap a command like Scan account barcode, and then use the device's camera to scan the QR code.
+
 10. If you cannot scan the code, type the configuration information manually by typing the Secret Configuration Key value into the app. For example, to do this in the Virtual MFA app, click Manually add account, and then type the secret configuration key and click Create.
+
 11. The device starts generating six-digit numbers.
+
 12. In the Manage MFA Device wizard, in the MFA Code 1 box, type the six-digit number that’s currently displayed by the MFA device. Wait up to 30 seconds for the device to generate a new number, and then type the new six-digit number into the Authentication Code 2 box.
+
 13. Important: Submit your request immediately after generating the codes. If you generate the codes and then wait too long to submit the request, the MFA device successfully associates with the user but the MFA device is out of sync. This happens because time-based one-time passwords (TOTP) expire after a short period of time. If this happens, you can resync the device.
+
 14. Click Assign MFA, and then click Finish. Note the 'success' confirmation and click Close.
 
 For more information please read the [AWS User Guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa.html)
