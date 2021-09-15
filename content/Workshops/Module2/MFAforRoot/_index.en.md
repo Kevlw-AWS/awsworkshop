@@ -1,3 +1,10 @@
++++
+menuTitle = "Apply MFA for Root Account"
+title = "Run the cloudformation template"
+date = 2020-07-30T14:27:19-05:00
+weight = 12
++++
+
 ### Apply MFA for Root Account
 1. Use your AWS account email address and password to sign in as the AWS account root user to the IAM console at https://console.aws.amazon.com/iam/ 
 2. On the right side of the navigation bar, click your account name, and click My Security Credentials. If necessary, click Continue to Security Credentials. 

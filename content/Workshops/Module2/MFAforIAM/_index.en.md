@@ -1,3 +1,10 @@
++++
+menuTitle = "Apply MFA for IAM Users"
+title = "Apply MFA for IAM Users"
+date = 2020-07-30T14:27:19-05:00
+weight = 13
++++
+
 ### Steps - Apply MFA for IAM Users
 Use your AWS account email address and password to sign in as an IAM Admin user to the IAM console at https://console.aws.amazon.com/iam/ 
 
