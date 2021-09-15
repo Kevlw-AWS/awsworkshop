@@ -1,6 +1,6 @@
 +++
 menuTitle = "Apply MFA for Root Account"
-title = "Run the cloudformation template"
+title = "Apply MFA for Root Account"
 date = 2020-07-30T14:27:19-05:00
 weight = 12
 +++
