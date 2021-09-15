@@ -1,7 +1,7 @@
 +++
 title = "10. Be involved in the Dev Cycle "
 date = 2019-11-18T08:23:04+11:00
-weight = 30
+weight = 35
 chapter = false
 +++
 

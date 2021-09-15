@@ -1,7 +1,7 @@
 +++
-title = "08. Take Action on GuardDuty findings"
+title = "8. Take Action on GuardDuty findings"
 date = 2019-11-18T08:23:04+11:00
-weight = 30
+weight = 33
 chapter = false
 +++
 

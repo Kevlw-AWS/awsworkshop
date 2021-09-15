@@ -1,7 +1,7 @@
 +++
-title = "09. Rotate your Credentials "
+title = "9. Rotate your Credentials "
 date = 2019-11-18T08:23:04+11:00
-weight = 30
+weight = 34
 chapter = false
 +++
 

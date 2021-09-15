@@ -1,5 +1,5 @@
 +++
-title = "01. Accurate Account Info"
+title = "1. Accurate Account Info"
 date = 2019-11-18T08:23:04+11:00
 weight = 27
 +++
