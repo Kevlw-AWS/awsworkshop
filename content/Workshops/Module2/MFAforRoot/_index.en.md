@@ -6,7 +6,7 @@ weight = 12
 +++
 
 ### Apply MFA for Root Account
-1. Use your AWS account email address and password to sign in as the AWS account root user to the IAM console at https://console.aws.amazon.com/iam/ 
+1. Use your AWS account email address and password to sign in as the AWS account root user to the [IAM console](https://console.aws.amazon.com/iam/)
 2. On the right side of the navigation bar, click your account name, and click My Security Credentials. If necessary, click Continue to Security Credentials. 
 3. Then expand the Multi-Factor Authentication (MFA) section on the page.
     
@@ -36,5 +36,12 @@ weight = 12
 12. Important: Submit your request immediately after generating the codes. If you generate the codes and then wait too long to submit the request, the MFA device successfully associates with the user but the MFA device is out of sync. This happens because time-based one-time passwords (TOTP) expire after a short period of time. If this happens, you can resync the device.
 
 13. Click Assign MFA, and then click Finish. Note the 'success' confirmation and click Close.
+
+#### Test your new MFA setting
+
+1. Open a *separate browser* and *stay logged in to your account on the original browser.*
+2. Try logging into your root account at the [AWS console](https://console.aws.amazon.com)
+3. You should need the MFA code to log in. 
+4. If MFA doesn’t work, return to the previous browser where you are still logged in and try to configure MFA again.  
 
 For more information please read the [AWS User Guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa.html)
