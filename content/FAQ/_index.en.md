@@ -27,8 +27,3 @@ We currently recommend Chrome or Firefox for use with the Jam. We cannot guarant
 **I’m stuck with this challenge, help!**
 
 A number of unlockable clues are available to help guide you through each challenge. If you are still stuck hit the “Need more Help?” on the challenge overview page.
-
-
-
-
-

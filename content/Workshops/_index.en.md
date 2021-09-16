@@ -11,6 +11,7 @@ disableToc = "false"
 These workshops are designed to help you get familiar with AWS Security and Operational services so you can improve your security and compliance objectives. 
 
 * You will be implementing these steps within your own AWS account. Therefore, access to implement these security controls within your AWS environment is mandatory.
+* We recommend you use your development account to go through these workshops. Once you are comfortable with these controls on your development account, you can implement it in your production account.
 * Follow the instructions in the workshop as you make your way through these Top 10 steps. 
 * You will be given 2 hours to implement these controls within your account. 
 * You can reach out to our AWS solutions architects if you experience an issue with the implementation of any of these controls. 
