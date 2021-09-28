@@ -5,7 +5,7 @@ weight = 32
 chapter = false
 +++
 
-Logging and monitoring are important parts of a robust security plan. Being able to investigate unexpected changes in your environment or perform analysis to iterate on your security posture relies on having access to data. AWS recommends that you write logs (https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-receive-logs-from-multiple-accounts.html), especially AWS CloudTrail, to an S3 bucket in an AWS account designated for logging (Log Archive). The permissions on the bucket should prevent deletion of the logs, and they should also be encrypted at rest. Once the logs are centralized, you can integrate with SIEM solutions or use AWS services to analyze them. 
+Logging and monitoring are important parts of a robust security plan. Being able to investigate unexpected changes in your environment or perform analysis to iterate on your security posture relies on having access to data. [AWS recommends that you write logs](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-receive-logs-from-multiple-accounts.html), especially AWS CloudTrail, to an S3 bucket in an AWS account designated for logging (Log Archive). The permissions on the bucket should prevent deletion of the logs, and they should also be encrypted at rest. Once the logs are centralized, you can integrate with SIEM solutions or use AWS services to analyze them. 
 
 There are 2 options in this lab:
 
